@@ -9,6 +9,8 @@ title: About
 
 I love understanding/explaining complex systems and leading teams.
 
+<br />
+
 ## 🛠️ Hard Skills
 
 Workday (Compensation, Rem Review, Benefits, Security, Reporting, Data). WalkMe. Programming (Python, JavaScript, PHP). Automation (EasyMorph, n8n, Automa RPA, Google App Script).
