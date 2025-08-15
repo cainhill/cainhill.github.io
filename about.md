@@ -13,7 +13,7 @@ I love understanding/explaining complex systems and leading teams.
 
 ## 🛠️ Hard Skills
 
-Workday (Compensation, Rem Review, Benefits, Security, Reporting, Data). WalkMe. Programming (Python, JavaScript, PHP). Automation (EasyMorph, n8n, Automa RPA, Google App Script).
+Workday (Compensation, Rem Review, Benefits, Security, Reporting, Data). WalkMe. Programming (Python, JavaScript, PHP). Automation (EasyMorph, n8n, Automa RPA, Google App Script). Media Editing (Inkscape, GIMP, Shotcut).
 
 <br />
 
