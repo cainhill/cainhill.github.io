@@ -5,7 +5,32 @@ description:         ''
 url:                 https://cainhill.github.io
 baseurl:             ''
 paginate:            5
-permalink:           pretty
+permalink:           /:title/ # How should URLs be formed?
+
+# Which folders have post content?
+collections:
+  blog:
+    output: true
+    permalink: /blog/:title/
+  off-topic:
+    output: true
+    permalink: /off-topic/:title/
+		
+# Which layout type should each URL use?		
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: page
+  - scope:
+      path: "_blog"
+    values:
+      layout: post
+  - scope:
+      path: "_off-topic"
+    values:
+      layout: post
 
 # About/contact
 author:
