@@ -5,6 +5,8 @@ title: Home
 
 # Hello 👋 
 
+<br />
+
 Has your team ever wanted to adopt a new HR system or modify your existing one to get more out of it?
 
 **I help enterprise leaders adopt the latest workforce platforms into their organisations**  
