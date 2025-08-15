@@ -15,7 +15,7 @@ collections:
   off-topic:
     output: true
     permalink: /off-topic/:title/
-		
+
 # Which layout type should each URL use?		
 defaults:
   - scope:
