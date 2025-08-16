@@ -7,7 +7,7 @@ title: Blog
   {% for post in site.blog reversed %}
   <div class="post">
      <span class="post-date">{{ post.date | date_to_string }}</span>
-    <h3 class="post-title">
+    <h3 class="custom post-title">
       <a href="{{ post.url | absolute_url }}">
         {{ post.title }}
       </a>

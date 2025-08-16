@@ -9,3 +9,13 @@
 .custom.sidebar-toggle {
   z-index: 200;
 } */
+
+.custom.post-title {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.custom.post-date {
+  margin-top: 0;
+  margin-bottom: 0;
+}
