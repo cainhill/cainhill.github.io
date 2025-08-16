@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Off Topic
+title: Blog
 ---
 
-<h1>Off Topic</h1>
+<h1>Blog</h1>
 
 <div class="posts">
-  {% for post in site["off-topic"] reversed %}
+  {% for post in site.blog reversed %}
   <div class="post">
      <span class="post-date">{{ post.date | date_to_string }}</span>
     <h3 class="post-title">
