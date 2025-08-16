@@ -9,7 +9,7 @@ title: Home
 
 Has your team ever wanted to adopt a new HR system or modify your existing one to get more out of it?
 
-**I help enterprise leaders adopt the latest workforce platforms into their organisations**  
+**I help leaders adopt the latest workforce platforms into their organisations**  
 \- from strategy design to program management and technical configuration.
 
 In essence, I'm on a mission to get the best technology value for HR teams.
