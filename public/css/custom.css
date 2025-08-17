@@ -10,16 +10,18 @@
   z-index: 200;
 } */
 
-.custom.post-title {
-  margin-top: 0 !important;
-  margin-bottom: 0 !important;
-}
-
-.custom.post-date {
-  margin-top: 0 !important;
-  margin-bottom: 0 !important;
-}
-
 #custom a {
   text-decoration: underline !important;
+}
+
+#custom .page-title {
+  margin-bottom: 2em !important;
+}
+
+#custom .posts .post {
+  margin-botton: 2em !important;
+}
+
+#custom .posts .post-date {
+  margin-botton: 0 !important;
 }
