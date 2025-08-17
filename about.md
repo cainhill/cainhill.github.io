@@ -3,8 +3,6 @@ layout: page
 title: About
 ---
 
-<br />
-
 ## 🎯 Inspiration and Purpose
 
 I love understanding/explaining complex systems and leading teams.
