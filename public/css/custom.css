@@ -19,3 +19,7 @@
   margin-top: 0 !important;
   margin-bottom: 0 !important;
 }
+
+.custom.post a {
+  text-decoration: underline !important;
+}
