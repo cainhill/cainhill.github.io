@@ -17,7 +17,7 @@ Workday (Compensation, Rem Review, Benefits, Security, Reporting, Data). WalkMe.
 
 ## 📌 Current Role
 
-I’m currently working as national programs manager for Human Captial Australia. Running activities that support team strategy, operations, and culture. Before that, I was chief of staff to the HR Strategy and Transformation Team at Deloitte, where I managed the office of the leader and key initiatives of 8 portfolio teams. In this role I managed a 2-year program of improvements, organised communication channels, and introduced new department-level policies.
+I’m currently working as national programs manager for [Human Captial Australia](https://www.deloitte.com/au/en/services/consulting/services/human-capital.html). Running activities that support team strategy, operations, and culture. Before that, I was chief of staff to the HR Strategy and Transformation Team at Deloitte, where I managed the office of the leader and key initiatives of 8 portfolio teams. In this role I managed a 2-year program of improvements, organised communication channels, and introduced new department-level policies.
 My previous experience in HR technology helps me to collaborate with market leaders across our technology offerings: SuccessFactors, Workday, Oracle, Peoplesoft, and Dayforce.
 
 <br />
