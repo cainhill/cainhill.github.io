@@ -1,0 +1,18 @@
+---
+layout: page
+title: Direct
+permalink: /FfKig3i67ntD/
+---
+
+<div class="posts">
+  {% for post in site["direct"] reversed %}
+  <div class="post">
+     <span class="post-date">{{ post.date | date_to_string }}</span>
+    <h3 class="post-title">
+      <a href="{{ post.url | absolute_url }}">
+        {{ post.title }}
+      </a>
+    </h3>
+  </div>
+  {% endfor %}
+</div>

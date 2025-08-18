@@ -15,6 +15,9 @@ collections:
   off-topic:
     output: true
     permalink: /off-topic/:title/
+  direct:
+    output: true
+    permalink: /direct/:title/
 
 # Which layout type should each URL use?		
 defaults:
@@ -29,6 +32,10 @@ defaults:
       layout: post
   - scope:
       path: "_off-topic"
+    values:
+      layout: post
+  - scope:
+      path: "_direct"
     values:
       layout: post
 
