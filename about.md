@@ -5,7 +5,7 @@ title: About
 
 ## 🎯 Inspiration and Purpose
 
-I love understanding/explaining complex systems and leading teams.
+I support HR leaders using tech to improve the work lives of their teams. We should design systems that are easy to work with - and the process of designing them can teach us a lot along the way.
 
 <br />
 
