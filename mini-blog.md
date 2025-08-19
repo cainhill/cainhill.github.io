@@ -19,7 +19,7 @@ This January, the normal New Year enthusiasm was more pronounced than usual arou
 
 **Awesome blog**
 
-This week I found this blog <heydingus.net> with some truly enjoyable perspectives. It’s made me wonder how I might organise my own website to better reflect my own interests. I've been impressed by the author's mini blog, similar to my own, as well as the topics.
+This week I found this blog [heydingus.net](heydingus.net) with some truly enjoyable perspectives. It’s made me wonder how I might organise my own website to better reflect my own interests. I've been impressed by the author's mini blog, similar to my own, as well as the topics.
 
 #blog_recommendation
 
