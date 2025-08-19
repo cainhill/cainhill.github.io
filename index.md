@@ -20,4 +20,4 @@ If you'd like to connect, please [send me a message here](https://www.linkedin.c
 
 <br />
 
-<img src="https://i.ibb.co/Kj1LYxzt/hillc-profile-cartoon.png" style="width: 120px; border-radius: 30px;" />
+<img src="https://i.ibb.co/Kj1LYxzt/hillc-profile-cartoon.png" style="width: 180px; border-radius: 30px;" />
