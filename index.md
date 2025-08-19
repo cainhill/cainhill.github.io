@@ -18,4 +18,4 @@ With 10+ years' experience delivering global HRIS projects, I work across HR dom
 
 If you'd like to connect, please [send me a message here](https://www.linkedin.com/in/cainhill/).
 
-<img src="https://i.ibb.co/Kj1LYxzt/hillc-profile-cartoon.png" style="width: 60px; border-radius: 15px;" />
+<img src="https://i.ibb.co/Kj1LYxzt/hillc-profile-cartoon.png" style="width: 120px; border-radius: 30px;" />
