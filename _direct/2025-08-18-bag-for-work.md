@@ -1,12 +1,14 @@
 ---
 layout: post
-permalink: /direct/367hgg35djat/
+title: Checklist for Work Bag
 ---
 
 - Keys
 - Phone
 - Wallet
 - Journal
+- Headache Tablets
+- Eye Drops
 
 - Laptop
 - Laptop Charger

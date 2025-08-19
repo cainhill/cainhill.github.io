@@ -38,6 +38,9 @@ defaults:
       path: "_direct"
     values:
       layout: post
+      exclude: true
+      robots: "noindex,nofollow"
+      permalink: "/secret/{{ page.path | md5 | slice: 0,12 }}/"
 
 # About/contact
 author:
