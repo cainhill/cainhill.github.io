@@ -14,3 +14,23 @@ This January, the normal New Year enthusiasm was more pronounced than usual arou
 #mindmapping #top_down_planning
 
 ---
+
+**January 26, 2024**
+
+**Awesome blog**
+
+This week I found this blog <heydingus.net> with some truly enjoyable perspectives. It’s made me wonder how I might organise my own website to better reflect my own interests. I've been impressed by the author's mini blog, similar to my own, as well as the topics.
+
+#blog_recommendation
+
+---
+
+**January 12, 2024**
+
+**Slides should be marked as approved for re-use to give sub-teams the tools to repeat messages clearly**
+
+I’ve been thinking about how to simplify communication cascade in large organisations and I’ve landed on an approach that I want to test. In 2024, I will put a “stamp” on presentation slides to encourage sub-teams to re-use the content I make into their regular team and internal project meetings. I’m hoping that marking these slides especially for re-use will help teams avoid rework and improve information cascade.
+
+#communication #document_tagging
+
+---
