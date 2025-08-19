@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Website systems
+slug: isb638ksbj56
 ---
 
 ## Lightweight documentation system

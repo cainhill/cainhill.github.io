@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Checklist for Work Bag
+slug: 734jsv38fa78
 ---
 
 - Keys

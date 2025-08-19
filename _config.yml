@@ -17,7 +17,7 @@ collections:
     permalink: /off-topic/:title/
   direct:
     output: true
-    permalink: /direct/:title/
+    permalink: /direct/:slug/
 
 # Which layout type should each URL use?		
 defaults:
@@ -40,8 +40,7 @@ defaults:
       layout: post
       exclude: true
       robots: "noindex,nofollow"
-      permalink: "/direct/{{ page.path | md5 | slice: 0,12 }}/"
-
+      
 # About/contact
 author:
   name:              Cain Hill
