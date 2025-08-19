@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: Mini Blog
 ---
 
 **February 2, 2024**
