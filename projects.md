@@ -3,7 +3,7 @@ layout: page
 title: Projects
 ---
 
-## 🎯 Apps or Code
+## Apps or Code
 
 - Better screen sharing with [WebcamCircle](https://github.com/cainhill/WebcamCircle)
 - Easier hierarchy management with [Excel-To-Tree](https://github.com/cainhill/Excel-To-Tree)
