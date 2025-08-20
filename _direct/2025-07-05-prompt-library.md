@@ -62,6 +62,8 @@ INPUTS
 16. Has short paragraphs and scannable structure.
 17. Proofread for grammar, spelling, and readability.
 18. Would be okay for a boss, CEO, or client to read.
+19. Makes a direct reference to my own experiences, for example, by mentioning my own example
+20. References at least 2 related sources to demonstrate wider reading and consideration.
 
 TASK
 For each rule:
