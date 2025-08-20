@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Checklist for Work Bag
+title: My prompt library
 slug: kvdi368dhrz9
 ---
 
