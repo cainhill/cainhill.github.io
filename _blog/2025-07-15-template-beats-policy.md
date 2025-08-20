@@ -4,7 +4,7 @@ title: Why a kickoff template beats a policy document every time
 permalink: /blog/template-beats-policy
 ---
 
-As an executive, you know the frustration well. You greenlight a project, set the priorities, and hope the team runs with it. But weeks later, updates are inconsistent, governance is missed, and decisions you thought were embedded seem forgotten. The project is moving—but not in the direction you intended, and suddenly you are spending time firefighting rather than leading.
+As an executive, you know the frustration well. You greenlight a project, set the priorities, and hope the team runs with it. But weeks later, updates are inconsistent, governance is missed, and decisions you thought were embedded seem forgotten. The project is moving, but not in the direction you intended. Suddenly you are spending time firefighting rather than leading.
 
 ---
 
