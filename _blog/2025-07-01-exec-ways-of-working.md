@@ -1,6 +1,7 @@
 ---
 layout: post
 title: How to apply a Chief of Staff playbook to save time and keep teams aligned
+permalink: /blog/cos-playbook
 ---
 
 ## Introduction
