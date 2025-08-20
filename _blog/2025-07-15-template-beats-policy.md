@@ -4,6 +4,17 @@ title: Why a kickoff template beats a policy document every time
 permalink: /blog/template-beats-policy
 ---
 
+Absolutely. The strongest way to open is to speak directly to an executive’s pain. In this context, their core worry isn’t that the project exists—it’s that the project will drift, fail to deliver what was intended, or consume their time with corrections. That taps into both accountability and time pressure, which executives feel acutely.
+
+Here’s a strong empathetic opening paragraph you could use:
+
+
+---
+
+As an executive, you know the frustration well. You greenlight a project, set the priorities, and hope the team runs with it. But weeks later, updates are inconsistent, governance is missed, and decisions you thought were embedded seem forgotten. The project is moving—but not in the direction you intended, and suddenly you are spending time firefighting rather than leading.
+
+---
+
 ## The Challenge
 
 Projects often stumble not because people lack good intentions. They stumble because of how they start. A kickoff should spark clarity, focus, and momentum. Too often, it gets lost in a mess of templates, policy PDFs, and links to reference documents.
