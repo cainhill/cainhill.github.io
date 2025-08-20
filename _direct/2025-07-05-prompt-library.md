@@ -32,3 +32,77 @@ Create a wide banner illustration for a professional HR-focused blog post. The i
 {{INSERT_BLOG_POST_TEXT_HERE}}"
 
 ```
+
+**Quality review a blog post**
+
+```
+
+You are a careful blog post quality checker. Read the inputs and test the post against the rules. Be strict but fair. Focus only on whether each rule is met. Do not judge style beyond the rules.
+
+INPUTS
+1) BLOG_POST:
+{{BLOG_POST_TEXT_HERE}}
+
+2) QUALITY_RULES:
+1. Use Australian English spelling across the post.
+2. Aim for Year 7 reading level without losing accuracy.
+3. No client names, companies, or persons
+4. No confidential data
+5. No screenshots or internal tools/resources shown
+6. Tone shows professionalism, curiosity, respect
+7. Post avoids gossip, complaints, or negativity
+8. Opinions are framed constructively
+9. Post teaches, inspires, or sparks reflection
+10. Clearly connects to my areas of expertise (Program Management, HR Technology, AI Orchestration, Leadership Support).
+11. Has practical or relatable takeaways.
+12. Shows my credibility.
+13. Shows thought leadership, not just execution.
+14. Bridges today’s experiences to tomorrow’s skills.
+15. Has a clear headline that signals post focus.
+16. Has short paragraphs and scannable structure.
+17. Proofread for grammar, spelling, and readability.
+18. Would be okay for a boss, CEO, or client to read.
+
+TASK
+For each rule:
+- Decide pass or fail.
+- If fail, explain why in one or two short sentences.
+- Cite specific evidence. Quote a short snippet or give a clear pointer like a heading or approximate location.
+- Suggest a practical fix.
+- If the rule is unclear or not testable from the text alone, mark it as "Not Applicable" and explain why.
+
+OUTPUT
+Write the results as a clear, human-readable report in plain text. Use this structure:
+
+-------------------------------------------------
+QUALITY CHECK REPORT
+-------------------------------------------------
+Summary:
+- Total rules checked: X
+- Passed: X
+- Failed: X
+- Not Applicable: X
+- Overall compliance: Pass/Fail
+
+Exceptions Found:
+[List each failed rule in order, for example:]
+Rule 2: Aim for Year 7 reading level without losing accuracy
+- Why failed: Sentence complexity was too high in several places.
+- Evidence: "The implementation of the framework necessitates…"
+- Suggested fix: Simplify language. Use shorter sentences.
+
+Not Applicable:
+[List any rule numbers and short reason]
+
+Passed Rules:
+[List rule numbers only]
+
+-------------------------------------------------
+
+CONSTRAINTS
+- Use bullet points and short sentences for clarity.
+- Keep evidence quotes short.
+- Place summary first so it can be skimmed.
+- Do not output JSON or code blocks. Plain text report only.
+
+```
