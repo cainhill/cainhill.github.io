@@ -48,7 +48,7 @@ This approach transforms the deck from a static template into a living tool. It 
 
 ## Summary
 
-Too often, kickoff decks are treated as a checkbox. A slide template is handed over with the hope that everything else falls into place. The real value comes when a deck teaches as it guides. Embedding instructions, context, and policy directly into the presentation turns a static template into a practical, actionable tool.
+Too often, kickoff presentations are treated as a checkbox. A slide template is handed over with the hope that everything else falls into place. The real value comes when a deck teaches as it guides. Embedding instructions, context, and policy directly into the presentation turns a static template into a practical, actionable tool.
 
 With this approach, project managers start with clarity. Leaders do not have to chase updates. Projects gain momentum from day one. Small design choices in how we share guidance can have an outsized impact. This principle applies well beyond kickoff sessions.
 
