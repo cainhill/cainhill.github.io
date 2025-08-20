@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to apply a Chief of Staff playbook to save time and keep everyone aligned
+title: How to apply a Chief of Staff playbook to save time and keep teams aligned
 ---
 
 ## Introduction
