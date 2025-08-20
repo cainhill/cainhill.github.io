@@ -6,9 +6,8 @@ permalink: /blog/cos-playbook
 
 ## Introduction
 
-When I first stepped into Chief of Staff, I quickly realised that most leaders aren’t struggling because of a lack of ideas, ambition, or talent. The cereal challenge is that important information is scattered, inconsistent, and hard to act on. Everyone is busy, but nobody feels aligned.
+When I first stepped into Chief of Staff, I quickly realised the real challenge is that important information is often scattered, inconsistent, and hard to act on. Everyone is busy, but nobody feels aligned.
 
-I saw it in meeting after meeting: the same questions resurfacing, the same actions being lost, and the same frustration that progress felt slower than it should. People weren’t failing at their jobs, they were failing to work from the same page.
 
 ## The Problem
 
