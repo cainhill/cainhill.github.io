@@ -11,14 +11,13 @@ This part of the site is where I collect and share the things I do outside of my
 
 ## 🎨 Creative Outlets
 
-I enjoy giving training
-I enjoy exploring **digital art**, building small **apps and templates**, and even co-founding projects like **Next Level**. These are places where I get to experiment and create without pressure.  
+In my spare time, I run learning labs for early career professionals. I make **digital art**. I create useful **apps and templates**. These are places where I get to experiment. 
 
 <br />
 
 ## 📺 Interests & Reflections
 
-I also write short asides in the **mini-blog** about the shows I love (Doctor Who, Stargate, The West Wing, Drag Race, theatre), the games I play, and the lessons I’ve picked up along the way. Sometimes it’s coding, automation, or home tech. Other times, it’s just something that caught my attention.  
+I share about my interests and reflections in my **mini-blog** about the shows I love (Doctor Who, Stargate, The West Wing, Drag Race, theatre), the games I play, and what I'm learning. Sometimes it’s coding, automation, or home tech. Other times, it’s just something that caught my attention.  
 
 <br />
 
