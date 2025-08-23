@@ -1,4 +1,18 @@
-<script src="https://cdn.tailwindcss.com"></script>
+---
+layout: default
+---
+
+<!-- Determine current mode based on page URL -->
+{% assign is_work_mode = false %}
+{% assign is_hobby_mode = false %}
+
+{% if page.url contains '/blog/' or page.url contains '/about/' or page.url contains '/projects/' or page.url == '/' %}
+  {% assign is_work_mode = true %}
+{% elsif page.url contains '/hobby/' %}
+  {% assign is_hobby_mode = true %}
+{% endif %}
+
+    <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
     <style>
         .work-icon {
@@ -23,11 +37,20 @@
                 </div>
                 <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 px-2 py-0 shadow border border-2 border-gray-200">
                     <div class="h-px bg-transparent"></div>
-                    <li><a href="/about/" class="py-3 !my-0.5 text-base bg-gray-200">About</a></li>
-                    <div class="h-px bg-base-300 mx-2"></div>
-                    <li><a href="/blog/" class="py-3 !my-0.5 text-base">Blog</a></li>
-                    <div class="h-px bg-base-300 mx-2"></div>
-                    <li><a href="/projects/" class="py-3 !my-0.5 text-base">Projects</a></li>
+                    
+                    {% if is_work_mode %}
+                        <!-- Work Mode Menu -->
+                        <li><a href="/about/" class="py-3 !my-0.5 text-base {% if page.url contains '/about/' %}bg-gray-200 font-bold{% endif %}">About</a></li>
+                        <div class="h-px bg-base-300 mx-2"></div>
+                        <li><a href="/blog/" class="py-3 !my-0.5 text-base {% if page.url contains '/blog/' %}bg-gray-200 font-bold{% endif %}">Blog</a></li>
+                        <div class="h-px bg-base-300 mx-2"></div>
+                        <li><a href="/projects/" class="py-3 !my-0.5 text-base {% if page.url contains '/projects/' %}bg-gray-200 font-bold{% endif %}">Projects</a></li>
+                    {% elsif is_hobby_mode %}
+                        <!-- Hobby Mode Menu -->
+                        <li><a href="/hobby/mini-blog/" class="py-3 !my-0.5 text-base {% if page.url contains '/hobby/mini-blog/' %}bg-gray-200 font-bold{% endif %}">Mini-Blog</a></li>
+                        <div class="h-px bg-base-300 mx-2"></div>
+                        <li><a href="/hobby/coaching/" class="py-3 !my-0.5 text-base {% if page.url contains '/hobby/coaching/' %}bg-gray-200 font-bold{% endif %}">Coaching</a></li>
+                    {% endif %}
                 </ul>
             </div>
         </div>
@@ -41,15 +64,27 @@
         <div class="navbar-end">
             <div class="dropdown dropdown-end">
                 <div tabindex="0" role="button" class="btn btn-circle bg-white hover:bg-gray-200 active:bg-gray-300 border-2 border-gray-200 hover:border-gray-300 active:border-gray-300">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#AA6262" class="icon icon-tabler icons-tabler-filled icon-tabler-arrow-guide" style="color: #679FB7;">
-                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                        <path d="M18.707 3.293l3 3q .054 .053 .097 .112l.071 .11l.054 .114l.035 .105l.030 .148l.006 .118l-.003 .075l-.017 .126l-.030 .111l-.044 .111l-.052 .098l-.067 .096l-.080 .090l-3 3a1 1 0 0 1 -1.414 -1.414l1.292 -1.293h-4.585a1 1 0 0 0 -1 1v8a3 3 0 0 1 -3 3h-2.171a3.001 3.001 0 0 1 -5.829 -1l.005 -.176a3 3 0 0 1 5.825 -.824h2.17a1 1 0 0 0 1 -1v-8a3 3 0 0 1 3 -3h4.585l-1.292 -1.293a1 1 0 0 1 -.083 -1.32l.083 -.094a1 1 0 0 1 1.414 0" />
-                    </svg>
+                    {% if is_work_mode %}
+                        <!-- Work Thoughts Icon -->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#AA6262" class="icon icon-tabler icons-tabler-filled icon-tabler-arrow-guide" style="color: #679FB7;">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <path d="M18.707 3.293l3 3q .054 .053 .097 .112l.071 .11l.054 .114l.035 .105l.030 .148l.006 .118l-.003 .075l-.017 .126l-.030 .111l-.044 .111l-.052 .098l-.067 .096l-.080 .090l-3 3a1 1 0 0 1 -1.414 -1.414l1.292 -1.293h-4.585a1 1 0 0 0 -1 1v8a3 3 0 0 1 -3 3h-2.171a3.001 3.001 0 0 1 -5.829 -1l.005 -.176a3 3 0 0 1 5.825 -.824h2.17a1 1 0 0 0 1 -1v-8a3 3 0 0 1 3 -3h4.585l-1.292 -1.293a1 1 0 0 1 -.083 -1.32l.083 -.094a1 1 0 0 1 1.414 0" />
+                        </svg>
+                    {% elsif is_hobby_mode %}
+                        <!-- Hobby Mode Icon (Music) -->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-music text-blue-400">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <path d="M3 17a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
+                            <path d="M13 17a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
+                            <path d="M9 17v-13h10v13" />
+                            <path d="M9 8h10" />
+                        </svg>
+                    {% endif %}
                 </div>
                 <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 px-2 py-0 shadow border border-2 border-gray-200">
                     <div class="h-px bg-transparent"></div>
                     <li>
-                        <a href="/about/" class="py-3 !my-0.5 text-base bg-gray-200 flex items-center gap-3">
+                        <a href="/about/" class="py-3 !my-0.5 text-base {% if is_work_mode %}bg-gray-200 font-bold{% endif %} flex items-center gap-3">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#AA6262" class="icon icon-tabler icons-tabler-filled icon-tabler-arrow-guide" style="color: #679FB7;">
                                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                                 <path d="M18.707 3.293l3 3q .054 .053 .097 .112l.071 .11l.054 .114l.035 .105l.030 .148l.006 .118l-.003 .075l-.017 .126l-.030 .111l-.044 .111l-.052 .098l-.067 .096l-.080 .090l-3 3a1 1 0 0 1 -1.414 -1.414l1.292 -1.293h-4.585a1 1 0 0 0 -1 1v8a3 3 0 0 1 -3 3h-2.171a3.001 3.001 0 0 1 -5.829 -1l.005 -.176a3 3 0 0 1 5.825 -.824h2.17a1 1 0 0 0 1 -1v-8a3 3 0 0 1 3 -3h4.585l-1.292 -1.293a1 1 0 0 1 -.083 -1.32l.083 -.094a1 1 0 0 1 1.414 0" />
@@ -59,7 +94,7 @@
                     </li>
                     <div class="h-px bg-base-300 mx-2"></div>
                     <li>
-                        <a href="/hobby/" class="py-3 !my-0.5 text-base flex items-center gap-3">
+                        <a href="/hobby/" class="py-3 !my-0.5 text-base {% if is_hobby_mode %}bg-gray-200 font-bold{% endif %} flex items-center gap-3">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-music text-blue-400">
                                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                                 <path d="M3 17a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
@@ -73,7 +108,32 @@
                 </ul>
             </div>
         </div>
-      </div>
+    </div>
+
+    <!-- Demo content to show navbar in context -->
+    <div class="container mx-auto p-8">
+        <div class="hero min-h-96 bg-base-200 rounded-lg">
+            <div class="hero-content text-center">
+                <div class="max-w-md">
+                    <h1 class="text-5xl font-bold">Welcome!</h1>
+                    <p class="py-6">This is a Jekyll navbar with work/hobby mode functionality using Liquid templating.</p>
+                    <div class="text-sm text-gray-600 space-y-1">
+                        <p>Current URL: <span class="font-mono">{{ page.url }}</span></p>
+                        <p>Current Mode: 
+                            <span class="font-bold">
+                                {% if is_work_mode %}Work{% elsif is_hobby_mode %}Hobby{% else %}Unknown{% endif %}
+                            </span>
+                        </p>
+                    </div>
+                    <div class="mt-4 text-xs text-gray-500">
+                        <p>Navigate to different pages to see the navbar change:</p>
+                        <p>/about/, /blog/, /projects/ → Work Mode</p>
+                        <p>/hobby/* → Hobby Mode</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script>
         // Optional: Add click handlers for menu items
@@ -82,10 +142,8 @@
             const dropdownItems = document.querySelectorAll('.dropdown ul li a');
             dropdownItems.forEach(item => {
                 item.addEventListener('click', function(e) {
-                    e.preventDefault();
                     // Close dropdown by removing focus
                     document.activeElement.blur();
-                    console.log('Clicked:', this.textContent.trim());
                 });
             });
         });
