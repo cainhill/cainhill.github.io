@@ -5,12 +5,13 @@ title: Hobby
 
 ## 🌱 Beyond Work
 
-This part of the site is where I collect and share the things I do outside of my professional world. It’s a mix of creative projects, experiments, and reflections that don’t need to fit neatly into my career story.  
+This part of the site is where I collect and share the things I do outside of my professional world. It’s a mix of creative projects, experiments, and reflections.  
 
 <br />
 
 ## 🎨 Creative Outlets
 
+I enjoy giving training
 I enjoy exploring **digital art**, building small **apps and templates**, and even co-founding projects like **Next Level**. These are places where I get to experiment and create without pressure.  
 
 <br />
