@@ -2,7 +2,7 @@
 @layer properties;
 @layer theme, base, components, utilities;
 @layer theme {
-  :root, :host {
+  .tw, .tw :host {
     --font-sans: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
       "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
@@ -20,13 +20,13 @@
   }
 }
 @layer base {
-  *, ::after, ::before, ::backdrop, ::file-selector-button {
+  .tw *, .tw ::after, .tw ::before, .tw ::backdrop, .tw ::file-selector-button {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     border: 0 solid;
   }
-  html, :host {
+  .tw, .tw :host {
     line-height: 1.5;
     -webkit-text-size-adjust: 100%;
     tab-size: 4;
@@ -35,74 +35,74 @@
     font-variation-settings: var(--default-font-variation-settings, normal);
     -webkit-tap-highlight-color: transparent;
   }
-  hr {
+  .tw hr {
     height: 0;
     color: inherit;
     border-top-width: 1px;
   }
-  abbr:where([title]) {
+  .tw abbr:where([title]) {
     -webkit-text-decoration: underline dotted;
     text-decoration: underline dotted;
   }
-  h1, h2, h3, h4, h5, h6 {
+  .tw h1, .tw h2, .tw h3, .tw h4, .tw h5, .tw h6 {
     font-size: inherit;
     font-weight: inherit;
   }
-  a {
+  .tw a {
     color: inherit;
     -webkit-text-decoration: inherit;
     text-decoration: inherit;
   }
-  b, strong {
+  .tw b, .tw strong {
     font-weight: bolder;
   }
-  code, kbd, samp, pre {
+  .tw code, .tw kbd, .tw samp, .tw pre {
     font-family: var(--default-mono-font-family, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace);
     font-feature-settings: var(--default-mono-font-feature-settings, normal);
     font-variation-settings: var(--default-mono-font-variation-settings, normal);
     font-size: 1em;
   }
-  small {
+  .tw small {
     font-size: 80%;
   }
-  sub, sup {
+  .tw sub, .tw sup {
     font-size: 75%;
     line-height: 0;
     position: relative;
     vertical-align: baseline;
   }
-  sub {
+  .tw sub {
     bottom: -0.25em;
   }
-  sup {
+  .tw sup {
     top: -0.5em;
   }
-  table {
+  .tw table {
     text-indent: 0;
     border-color: inherit;
     border-collapse: collapse;
   }
-  :-moz-focusring {
+  .tw :-moz-focusring {
     outline: auto;
   }
-  progress {
+  .tw progress {
     vertical-align: baseline;
   }
-  summary {
+  .tw summary {
     display: list-item;
   }
-  ol, ul, menu {
+  .tw ol, .tw ul, .tw menu {
     list-style: none;
   }
-  img, svg, video, canvas, audio, iframe, embed, object {
+  .tw img, .tw svg, .tw video, .tw canvas, .tw audio, .tw iframe, .tw embed, .tw object {
     display: block;
     vertical-align: middle;
   }
-  img, video {
+  .tw img, .tw video {
     max-width: 100%;
     height: auto;
   }
-  button, input, select, optgroup, textarea, ::file-selector-button {
+  .tw button, .tw input, .tw select, .tw optgroup, .tw textarea, .tw ::file-selector-button {
     font: inherit;
     font-feature-settings: inherit;
     font-variation-settings: inherit;
@@ -112,63 +112,63 @@
     background-color: transparent;
     opacity: 1;
   }
-  :where(select:is([multiple], [size])) optgroup {
+  .tw :where(select:is([multiple], [size])) optgroup {
     font-weight: bolder;
   }
-  :where(select:is([multiple], [size])) optgroup option {
+  .tw :where(select:is([multiple], [size])) optgroup option {
     padding-inline-start: 20px;
   }
-  ::file-selector-button {
+  .tw ::file-selector-button {
     margin-inline-end: 4px;
   }
-  ::placeholder {
+  .tw ::placeholder {
     opacity: 1;
   }
   @supports (not (-webkit-appearance: -apple-pay-button))  or (contain-intrinsic-size: 1px) {
-    ::placeholder {
+    .tw ::placeholder {
       color: currentcolor;
       @supports (color: color-mix(in lab, red, red)) {
         color: color-mix(in oklab, currentcolor 50%, transparent);
       }
     }
   }
-  textarea {
+  .tw textarea {
     resize: vertical;
   }
-  ::-webkit-search-decoration {
+  .tw ::-webkit-search-decoration {
     -webkit-appearance: none;
   }
-  ::-webkit-date-and-time-value {
+  .tw ::-webkit-date-and-time-value {
     min-height: 1lh;
     text-align: inherit;
   }
-  ::-webkit-datetime-edit {
+  .tw ::-webkit-datetime-edit {
     display: inline-flex;
   }
-  ::-webkit-datetime-edit-fields-wrapper {
+  .tw ::-webkit-datetime-edit-fields-wrapper {
     padding: 0;
   }
-  ::-webkit-datetime-edit, ::-webkit-datetime-edit-year-field, ::-webkit-datetime-edit-month-field, ::-webkit-datetime-edit-day-field, ::-webkit-datetime-edit-hour-field, ::-webkit-datetime-edit-minute-field, ::-webkit-datetime-edit-second-field, ::-webkit-datetime-edit-millisecond-field, ::-webkit-datetime-edit-meridiem-field {
+  .tw ::-webkit-datetime-edit, .tw ::-webkit-datetime-edit-year-field, .tw ::-webkit-datetime-edit-month-field, .tw ::-webkit-datetime-edit-day-field, .tw ::-webkit-datetime-edit-hour-field, .tw ::-webkit-datetime-edit-minute-field, .tw ::-webkit-datetime-edit-second-field, .tw ::-webkit-datetime-edit-millisecond-field, .tw ::-webkit-datetime-edit-meridiem-field {
     padding-block: 0;
   }
-  ::-webkit-calendar-picker-indicator {
+  .tw ::-webkit-calendar-picker-indicator {
     line-height: 1;
   }
-  :-moz-ui-invalid {
+  .tw :-moz-ui-invalid {
     box-shadow: none;
   }
-  button, input:where([type="button"], [type="reset"], [type="submit"]), ::file-selector-button {
+  .tw button, .tw input:where([type="button"], [type="reset"], [type="submit"]), .tw ::file-selector-button {
     appearance: button;
   }
-  ::-webkit-inner-spin-button, ::-webkit-outer-spin-button {
+  .tw ::-webkit-inner-spin-button, .tw ::-webkit-outer-spin-button {
     height: auto;
   }
-  [hidden]:where(:not([hidden="until-found"])) {
+  .tw [hidden]:where(:not([hidden="until-found"])) {
     display: none !important;
   }
 }
 @layer utilities {
-  .menu {
+  .tw .menu {
     display: flex;
     width: fit-content;
     flex-direction: column;
@@ -177,12 +177,12 @@
     --menu-active-fg: var(--color-neutral-content);
     --menu-active-bg: var(--color-neutral);
     font-size: 0.875rem;
-    :where(li ul) {
+    .tw :where(li ul) {
       position: relative;
       margin-inline-start: calc(0.25rem * 4);
       padding-inline-start: calc(0.25rem * 2);
       white-space: nowrap;
-      &:before {
+      .tw &:before {
         position: absolute;
         inset-inline-start: calc(0.25rem * 0);
         top: calc(0.25rem * 3);
@@ -193,10 +193,10 @@
         content: "";
       }
     }
-    :where(li > .menu-dropdown:not(.menu-dropdown-show)) {
+    .tw :where(li > .menu-dropdown:not(.menu-dropdown-show)) {
       display: none;
     }
-    :where(li:not(.menu-title) > *:not(ul, details, .menu-title, .btn)), :where(li:not(.menu-title) > details > summary:not(.menu-title)) {
+    .tw :where(li:not(.menu-title) > *:not(ul, details, .menu-title, .btn)), .tw :where(li:not(.menu-title) > details > summary:not(.menu-title)) {
       display: grid;
       grid-auto-flow: column;
       align-content: flex-start;
@@ -213,19 +213,19 @@
       text-wrap: balance;
       user-select: none;
     }
-    :where(li > details > summary) {
+    .tw :where(li > details > summary) {
       --tw-outline-style: none;
       outline-style: none;
       @media (forced-colors: active) {
         outline: 2px solid transparent;
         outline-offset: 2px;
       }
-      &::-webkit-details-marker {
+      .tw &::-webkit-details-marker {
         display: none;
       }
     }
-    :where(li > details > summary), :where(li > .menu-dropdown-toggle) {
-      &:after {
+    .tw :where(li > details > summary), .tw :where(li > .menu-dropdown-toggle) {
+      .tw &:after {
         justify-self: flex-end;
         display: block;
         height: 0.375rem;
@@ -240,12 +240,12 @@
         pointer-events: none;
       }
     }
-    :where(li > details[open] > summary):after, :where(li > .menu-dropdown-toggle.menu-dropdown-show):after {
+    .tw :where(li > details[open] > summary):after, .tw :where(li > .menu-dropdown-toggle.menu-dropdown-show):after {
       rotate: 45deg;
       translate: 0 1px;
     }
-    :where( li:not(.menu-title, .disabled) > *:not(ul, details, .menu-title), li:not(.menu-title, .disabled) > details > summary:not(.menu-title) ):not(.menu-active, :active, .btn) {
-      &.menu-focus, &:focus-visible {
+    .tw :where( li:not(.menu-title, .disabled) > *:not(ul, details, .menu-title), li:not(.menu-title, .disabled) > details > summary:not(.menu-title) ):not(.menu-active, :active, .btn) {
+      .tw &.menu-focus, .tw &:focus-visible {
         cursor: pointer;
         background-color: var(--color-base-content);
         @supports (color: color-mix(in lab, red, red)) {
@@ -260,7 +260,7 @@
         }
       }
     }
-    :where( li:not(.menu-title, .disabled) > *:not(ul, details, .menu-title):not(.menu-active, :active, .btn):hover, li:not(.menu-title, .disabled) > details > summary:not(.menu-title):not(.menu-active, :active, .btn):hover ) {
+    .tw :where( li:not(.menu-title, .disabled) > *:not(ul, details, .menu-title):not(.menu-active, :active, .btn):hover, li:not(.menu-title, .disabled) > details > summary:not(.menu-title):not(.menu-active, :active, .btn):hover ) {
       cursor: pointer;
       background-color: var(--color-base-content);
       @supports (color: color-mix(in lab, red, red)) {
@@ -274,23 +274,23 @@
       }
       box-shadow: 0 1px oklch(0% 0 0 / 0.01) inset, 0 -1px oklch(100% 0 0 / 0.01) inset;
     }
-    :where(li:empty) {
+    .tw :where(li:empty) {
       background-color: var(--color-base-content);
       opacity: 10%;
       margin: 0.5rem 1rem;
       height: 1px;
     }
-    :where(li) {
+    .tw :where(li) {
       position: relative;
       display: flex;
       flex-shrink: 0;
       flex-direction: column;
       flex-wrap: wrap;
       align-items: stretch;
-      .badge {
+      .tw .badge {
         justify-self: flex-end;
       }
-      & > *:not(ul, .menu-title, details, .btn):active, & > *:not(ul, .menu-title, details, .btn).menu-active, & > details > summary:active {
+      .tw & > *:not(ul, .menu-title, details, .btn):active, .tw & > *:not(ul, .menu-title, details, .btn).menu-active, .tw & > details > summary:active {
         --tw-outline-style: none;
         outline-style: none;
         @media (forced-colors: active) {
@@ -301,11 +301,11 @@
         background-color: var(--menu-active-bg);
         background-size: auto, calc(var(--noise) * 100%);
         background-image: none, var(--fx-noise);
-        &:not(&:active) {
+        .tw &:not(&:active) {
           box-shadow: 0 2px calc(var(--depth) * 3px) -2px var(--menu-active-bg);
         }
       }
-      &.menu-disabled {
+      .tw &.menu-disabled {
         pointer-events: none;
         color: var(--color-base-content);
         @supports (color: color-mix(in lab, red, red)) {
@@ -313,25 +313,25 @@
         }
       }
     }
-    .dropdown:focus-within {
-      .menu-dropdown-toggle:after {
+    .tw .dropdown:focus-within {
+      .tw .menu-dropdown-toggle:after {
         rotate: 45deg;
         translate: 0 1px;
       }
     }
-    .dropdown-content {
+    .tw .dropdown-content {
       margin-top: calc(0.25rem * 2);
       padding: calc(0.25rem * 2);
-      &:before {
+      .tw &:before {
         display: none;
       }
     }
   }
-  .dropdown {
+  .tw .dropdown {
     position: relative;
     display: inline-block;
     position-area: var(--anchor-v, bottom) var(--anchor-h, span-right);
-    & > *:not(summary):focus {
+    .tw & > *:not(summary):focus {
       --tw-outline-style: none;
       outline-style: none;
       @media (forced-colors: active) {
@@ -339,18 +339,18 @@
         outline-offset: 2px;
       }
     }
-    .dropdown-content {
+    .tw .dropdown-content {
       position: absolute;
     }
-    &:not(details, .dropdown-open, .dropdown-hover:hover, :focus-within) {
-      .dropdown-content {
+    .tw &:not(details, .dropdown-open, .dropdown-hover:hover, :focus-within) {
+      .tw .dropdown-content {
         display: none;
         transform-origin: top;
         opacity: 0%;
         scale: 95%;
       }
     }
-    &[popover], .dropdown-content {
+    .tw &[popover], .tw .dropdown-content {
       z-index: 999;
       animation: dropdown 0.2s;
       transition-property: opacity, scale, display;
@@ -359,56 +359,56 @@
       transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     }
     @starting-style {
-      &[popover], .dropdown-content {
+      .tw &[popover], .tw .dropdown-content {
         scale: 95%;
         opacity: 0;
       }
     }
-    &.dropdown-open, &:not(.dropdown-hover):focus, &:focus-within {
-      > [tabindex]:first-child {
+    .tw &.dropdown-open, .tw &:not(.dropdown-hover):focus, .tw &:focus-within {
+      .tw > [tabindex]:first-child {
         pointer-events: none;
       }
-      .dropdown-content {
+      .tw .dropdown-content {
         opacity: 100%;
       }
     }
-    &.dropdown-hover:hover {
-      .dropdown-content {
+    .tw &.dropdown-hover:hover {
+      .tw .dropdown-content {
         opacity: 100%;
         scale: 100%;
       }
     }
-    &:is(details) {
-      summary {
-        &::-webkit-details-marker {
+    .tw &:is(details) {
+      .tw summary {
+        .tw &::-webkit-details-marker {
           display: none;
         }
       }
     }
-    &.dropdown-open, &:focus, &:focus-within {
-      .dropdown-content {
+    .tw &.dropdown-open, .tw &:focus, .tw &:focus-within {
+      .tw .dropdown-content {
         scale: 100%;
       }
     }
-    &:where([popover]) {
+    .tw &:where([popover]) {
       background: #0000;
     }
-    &[popover] {
+    .tw &[popover] {
       position: fixed;
       color: inherit;
       @supports not (position-area: bottom) {
         margin: auto;
-        &.dropdown-open:not(:popover-open) {
+        .tw &.dropdown-open:not(:popover-open) {
           display: none;
           transform-origin: top;
           opacity: 0%;
           scale: 95%;
         }
-        &::backdrop {
+        .tw &::backdrop {
           background-color: color-mix(in oklab, #000 30%, #0000);
         }
       }
-      &:not(.dropdown-open, :popover-open) {
+      .tw &:not(.dropdown-open, :popover-open) {
         display: none;
         transform-origin: top;
         opacity: 0%;
@@ -416,8 +416,8 @@
       }
     }
   }
-  .btn {
-    :where(&) {
+  .tw .btn {
+    .tw :where(&) {
       width: unset;
     }
     display: inline-flex;
@@ -470,23 +470,23 @@
     0 4px 3px -2px color-mix(in oklab, var(--btn-bg) calc(var(--depth) * 30%), #0000);
     }
     --btn-noise: var(--fx-noise);
-    .prose & {
+    .tw .prose & {
       text-decoration-line: none;
     }
     @media (hover: hover) {
-      &:hover {
+      .tw &:hover {
         --btn-bg: var(--btn-color, var(--color-base-200));
         @supports (color: color-mix(in lab, red, red)) {
           --btn-bg: color-mix(in oklab, var(--btn-color, var(--color-base-200)), #000 7%);
         }
       }
     }
-    &:focus-visible {
+    .tw &:focus-visible {
       outline-width: 2px;
       outline-style: solid;
       isolation: isolate;
     }
-    &:active:not(.btn-active) {
+    .tw &:active:not(.btn-active) {
       translate: 0 0.5px;
       --btn-bg: var(--btn-color, var(--color-base-200));
       @supports (color: color-mix(in lab, red, red)) {
@@ -498,8 +498,8 @@
       }
       --btn-shadow: 0 0 0 0 oklch(0% 0 0/0), 0 0 0 0 oklch(0% 0 0/0);
     }
-    &:is(:disabled, [disabled], .btn-disabled) {
-      &:not(.btn-link, .btn-ghost) {
+    .tw &:is(:disabled, [disabled], .btn-disabled) {
+      .tw &:not(.btn-link, .btn-ghost) {
         background-color: var(--color-base-content);
         @supports (color: color-mix(in lab, red, red)) {
           background-color: color-mix(in oklab, var(--color-base-content) 10%, transparent);
@@ -514,7 +514,7 @@
         --btn-fg: color-mix(in oklch, var(--color-base-content) 20%, #0000);
       }
       @media (hover: hover) {
-        &:hover {
+        .tw &:hover {
           pointer-events: none;
           background-color: var(--color-neutral);
           @supports (color: color-mix(in lab, red, red)) {
@@ -528,48 +528,152 @@
         }
       }
     }
-    &:is(input[type="checkbox"], input[type="radio"]) {
+    .tw &:is(input[type="checkbox"], input[type="radio"]) {
       appearance: none;
-      &::after {
+      .tw &::after {
         content: attr(aria-label);
       }
     }
-    &:where(input:checked:not(.filter .btn)) {
+    .tw &:where(input:checked:not(.filter .btn)) {
       --btn-color: var(--color-primary);
       --btn-fg: var(--color-primary-content);
       isolation: isolate;
     }
   }
-  .dropdown-end {
+  .tw .steps {
+    display: inline-grid;
+    grid-auto-flow: column;
+    overflow: hidden;
+    overflow-x: auto;
+    counter-reset: step;
+    grid-auto-columns: 1fr;
+    .tw .step {
+      display: grid;
+      grid-template-columns: repeat(1, minmax(0, 1fr));
+      grid-template-columns: auto;
+      grid-template-rows: repeat(2, minmax(0, 1fr));
+      grid-template-rows: 40px 1fr;
+      place-items: center;
+      text-align: center;
+      min-width: 4rem;
+      --step-bg: var(--color-base-300);
+      --step-fg: var(--color-base-content);
+      .tw &:before {
+        top: calc(0.25rem * 0);
+        grid-column-start: 1;
+        grid-row-start: 1;
+        height: calc(0.25rem * 2);
+        width: 100%;
+        border: 1px solid;
+        color: var(--step-bg);
+        background-color: var(--step-bg);
+        --tw-content: "";
+        content: var(--tw-content);
+        margin-inline-start: -100%;
+      }
+      .tw > .step-icon, .tw &:not(:has(.step-icon)):after {
+        content: counter(step);
+        counter-increment: step;
+        z-index: 1;
+        color: var(--step-fg);
+        background-color: var(--step-bg);
+        border: 1px solid var(--step-bg);
+        position: relative;
+        grid-column-start: 1;
+        grid-row-start: 1;
+        display: grid;
+        height: calc(0.25rem * 8);
+        width: calc(0.25rem * 8);
+        place-items: center;
+        place-self: center;
+        border-radius: calc(infinity * 1px);
+      }
+      .tw &:first-child:before {
+        content: none;
+      }
+      .tw &[data-content]:after {
+        content: attr(data-content);
+      }
+    }
+    .tw .step-neutral {
+      .tw + .step-neutral:before, .tw &:after, .tw > .step-icon {
+        --step-bg: var(--color-neutral);
+        --step-fg: var(--color-neutral-content);
+      }
+    }
+    .tw .step-primary {
+      .tw + .step-primary:before, .tw &:after, .tw > .step-icon {
+        --step-bg: var(--color-primary);
+        --step-fg: var(--color-primary-content);
+      }
+    }
+    .tw .step-secondary {
+      .tw + .step-secondary:before, .tw &:after, .tw > .step-icon {
+        --step-bg: var(--color-secondary);
+        --step-fg: var(--color-secondary-content);
+      }
+    }
+    .tw .step-accent {
+      .tw + .step-accent:before, .tw &:after, .tw > .step-icon {
+        --step-bg: var(--color-accent);
+        --step-fg: var(--color-accent-content);
+      }
+    }
+    .tw .step-info {
+      .tw + .step-info:before, .tw &:after, .tw > .step-icon {
+        --step-bg: var(--color-info);
+        --step-fg: var(--color-info-content);
+      }
+    }
+    .tw .step-success {
+      .tw + .step-success:before, .tw &:after, .tw > .step-icon {
+        --step-bg: var(--color-success);
+        --step-fg: var(--color-success-content);
+      }
+    }
+    .tw .step-warning {
+      .tw + .step-warning:before, .tw &:after, .tw > .step-icon {
+        --step-bg: var(--color-warning);
+        --step-fg: var(--color-warning-content);
+      }
+    }
+    .tw .step-error {
+      .tw + .step-error:before, .tw &:after, .tw > .step-icon {
+        --step-bg: var(--color-error);
+        --step-fg: var(--color-error-content);
+      }
+    }
+  }
+  .tw .dropdown-end {
     --anchor-h: span-left;
-    :where(.dropdown-content) {
+    .tw :where(.dropdown-content) {
       inset-inline-end: calc(0.25rem * 0);
       translate: 0 0;
-      [dir="rtl"] & {
+      .tw [dir="rtl"] & {
         translate: 0 0;
       }
     }
-    &.dropdown-left {
+    .tw &.dropdown-left {
       --anchor-h: left;
       --anchor-v: span-top;
-      .dropdown-content {
+      .tw .dropdown-content {
         top: auto;
         bottom: calc(0.25rem * 0);
       }
     }
-    &.dropdown-right {
+    .tw &.dropdown-right {
       --anchor-h: right;
       --anchor-v: span-top;
-      .dropdown-content {
+      .tw .dropdown-content {
         top: auto;
         bottom: calc(0.25rem * 0);
       }
     }
   }
-  .z-\[1\] {
+  .tw .z-\[1\] {
     z-index: 1;
   }
-  .container {
+  .tw .container {
     width: 100%;
     @media (width >= 40rem) {
       max-width: 40rem;
@@ -587,151 +691,151 @@
       max-width: 96rem;
     }
   }
-  .mx-2 {
+  .tw .mx-2 {
     margin-inline: calc(var(--spacing) * 2);
   }
-  .\!my-0\.5 {
+  .tw .\!my-0\.5 {
     margin-block: calc(var(--spacing) * 0.5) !important;
   }
-  .mt-3 {
+  .tw .mt-3 {
     margin-top: calc(var(--spacing) * 3);
   }
-  .navbar {
+  .tw .navbar {
     display: flex;
     width: 100%;
     align-items: center;
     padding: 0.5rem;
     min-height: 4rem;
   }
-  .navbar-end {
+  .tw .navbar-end {
     display: inline-flex;
     align-items: center;
     width: 50%;
     justify-content: flex-end;
   }
-  .navbar-start {
+  .tw .navbar-start {
     display: inline-flex;
     align-items: center;
     width: 50%;
     justify-content: flex-start;
   }
-  .navbar-center {
+  .tw .navbar-center {
     display: inline-flex;
     align-items: center;
     flex-shrink: 0;
   }
-  .flex {
+  .tw .flex {
     display: flex;
   }
-  .btn-circle {
+  .tw .btn-circle {
     border-radius: calc(infinity * 1px);
     padding-inline: calc(0.25rem * 0);
     width: var(--size);
     height: var(--size);
   }
-  .h-5 {
+  .tw .h-5 {
     height: calc(var(--spacing) * 5);
   }
-  .h-px {
+  .tw .h-px {
     height: 1px;
   }
-  .w-5 {
+  .tw .w-5 {
     width: calc(var(--spacing) * 5);
   }
-  .w-52 {
+  .tw .w-52 {
     width: calc(var(--spacing) * 52);
   }
-  .items-center {
+  .tw .items-center {
     align-items: center;
   }
-  .gap-3 {
+  .tw .gap-3 {
     gap: calc(var(--spacing) * 3);
   }
-  .menu-sm {
-    :where(li:not(.menu-title) > *:not(ul, details, .menu-title)), :where(li:not(.menu-title) > details > summary:not(.menu-title)) {
+  .tw .menu-sm {
+    .tw :where(li:not(.menu-title) > *:not(ul, details, .menu-title)), .tw :where(li:not(.menu-title) > details > summary:not(.menu-title)) {
       border-radius: var(--radius-field);
       padding-inline: calc(0.25rem * 2.5);
       padding-block: calc(0.25rem * 1);
       font-size: 0.75rem;
     }
-    .menu-title {
+    .tw .menu-title {
       padding-inline: calc(0.25rem * 3);
       padding-block: calc(0.25rem * 2);
     }
   }
-  .rounded-box {
+  .tw .rounded-box {
     border-radius: var(--radius-box);
   }
-  .rounded-box {
+  .tw .rounded-box {
     border-radius: var(--radius-box);
   }
-  .border {
+  .tw .border {
     border-style: var(--tw-border-style);
     border-width: 1px;
   }
-  .border-2 {
+  .tw .border-2 {
     border-style: var(--tw-border-style);
     border-width: 2px;
   }
-  .border-gray-200 {
+  .tw .border-gray-200 {
     border-color: var(--color-gray-200);
   }
-  .bg-base-100 {
+  .tw .bg-base-100 {
     background-color: var(--color-base-100);
   }
-  .bg-base-300 {
+  .tw .bg-base-300 {
     background-color: var(--color-base-300);
   }
-  .bg-gray-200 {
+  .tw .bg-gray-200 {
     background-color: var(--color-gray-200);
   }
-  .bg-transparent {
+  .tw .bg-transparent {
     background-color: transparent;
   }
-  .bg-white {
+  .tw .bg-white {
     background-color: var(--color-white);
   }
-  .px-2 {
+  .tw .px-2 {
     padding-inline: calc(var(--spacing) * 2);
   }
-  .py-0 {
+  .tw .py-0 {
     padding-block: calc(var(--spacing) * 0);
   }
-  .py-3 {
+  .tw .py-3 {
     padding-block: calc(var(--spacing) * 3);
   }
-  .text-base {
+  .tw .text-base {
     font-size: var(--text-base);
     line-height: var(--tw-leading, var(--text-base--line-height));
   }
-  .font-bold {
+  .tw .font-bold {
     --tw-font-weight: var(--font-weight-bold);
     font-weight: var(--font-weight-bold);
   }
-  .text-blue-400 {
+  .tw .text-blue-400 {
     color: var(--color-blue-400);
   }
-  .shadow {
+  .tw .shadow {
     --tw-shadow: 0 1px 3px 0 var(--tw-shadow-color, rgb(0 0 0 / 0.1)), 0 1px 2px -1px var(--tw-shadow-color, rgb(0 0 0 / 0.1));
     box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
   }
-  .shadow-lg {
+  .tw .shadow-lg {
     --tw-shadow: 0 10px 15px -3px var(--tw-shadow-color, rgb(0 0 0 / 0.1)), 0 4px 6px -4px var(--tw-shadow-color, rgb(0 0 0 / 0.1));
     box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
   }
-  .btn-ghost {
-    &:not(.btn-active, :hover, :active:focus, :focus-visible) {
+  .tw .btn-ghost {
+    .tw &:not(.btn-active, :hover, :active:focus, :focus-visible) {
       --btn-shadow: "";
       --btn-bg: #0000;
       --btn-border: #0000;
       --btn-noise: none;
-      &:not(:disabled, [disabled], .btn-disabled) {
+      .tw &:not(:disabled, [disabled], .btn-disabled) {
         outline-color: currentColor;
         --btn-fg: currentColor;
       }
     }
     @media (hover: none) {
-      &:hover:not(.btn-active, :active, :focus-visible, :disabled, [disabled], .btn-disabled) {
+      .tw &:hover:not(.btn-active, :active, :focus-visible, :disabled, [disabled], .btn-disabled) {
         --btn-shadow: "";
         --btn-bg: #0000;
         --btn-border: #0000;
@@ -740,65 +844,65 @@
       }
     }
   }
-  .btn-accent {
+  .tw .btn-accent {
     --btn-color: var(--color-accent);
     --btn-fg: var(--color-accent-content);
   }
-  .btn-error {
+  .tw .btn-error {
     --btn-color: var(--color-error);
     --btn-fg: var(--color-error-content);
   }
-  .btn-info {
+  .tw .btn-info {
     --btn-color: var(--color-info);
     --btn-fg: var(--color-info-content);
   }
-  .btn-neutral {
+  .tw .btn-neutral {
     --btn-color: var(--color-neutral);
     --btn-fg: var(--color-neutral-content);
   }
-  .btn-primary {
+  .tw .btn-primary {
     --btn-color: var(--color-primary);
     --btn-fg: var(--color-primary-content);
   }
-  .btn-secondary {
+  .tw .btn-secondary {
     --btn-color: var(--color-secondary);
     --btn-fg: var(--color-secondary-content);
   }
-  .btn-success {
+  .tw .btn-success {
     --btn-color: var(--color-success);
     --btn-fg: var(--color-success-content);
   }
-  .btn-warning {
+  .tw .btn-warning {
     --btn-color: var(--color-warning);
     --btn-fg: var(--color-warning-content);
   }
-  .hover\:border-gray-300 {
-    &:hover {
+  .tw .hover\:border-gray-300 {
+    .tw &:hover {
       @media (hover: hover) {
         border-color: var(--color-gray-300);
       }
     }
   }
-  .hover\:bg-gray-200 {
-    &:hover {
+  .tw .hover\:bg-gray-200 {
+    .tw &:hover {
       @media (hover: hover) {
         background-color: var(--color-gray-200);
       }
     }
   }
-  .active\:border-gray-300 {
-    &:active {
+  .tw .active\:border-gray-300 {
+    .tw &:active {
       border-color: var(--color-gray-300);
     }
   }
-  .active\:bg-gray-300 {
-    &:active {
+  .tw .active\:bg-gray-300 {
+    .tw &:active {
       background-color: var(--color-gray-300);
     }
   }
 }
 @layer base {
-  :where(#tw),#tw:has(input.theme-controller[value=light]:checked),[data-theme=light] {
+  .tw :where(:root),.tw :root:has(input.theme-controller[value=light]:checked),.tw [data-theme=light] {
     color-scheme: light;
     --color-base-100: oklch(100% 0 0);
     --color-base-200: oklch(98% 0 0);
@@ -832,7 +936,7 @@
 }
 @layer base {
   @media (prefers-color-scheme: dark) {
-    #tw {
+    .tw {
       color-scheme: dark;
       --color-base-100: oklch(25.33% 0.016 252.42);
       --color-base-200: oklch(23.26% 0.014 253.1);
@@ -866,7 +970,7 @@
   }
 }
 @layer base {
-  #tw:has(input.theme-controller[value=light]:checked),[data-theme=light] {
+  .tw :root:has(input.theme-controller[value=light]:checked),.tw [data-theme=light] {
     color-scheme: light;
     --color-base-100: oklch(100% 0 0);
     --color-base-200: oklch(98% 0 0);
@@ -899,7 +1003,7 @@
   }
 }
 @layer base {
-  #tw:has(input.theme-controller[value=dark]:checked),[data-theme=dark] {
+  .tw :root:has(input.theme-controller[value=dark]:checked),.tw [data-theme=dark] {
     color-scheme: dark;
     --color-base-100: oklch(25.33% 0.016 252.42);
     --color-base-200: oklch(23.26% 0.014 253.1);
@@ -932,13 +1036,13 @@
   }
 }
 @layer base {
-  :root, [data-theme] {
+  .tw, .tw [data-theme] {
     background-color: var(--root-bg, var(--color-base-100));
     color: var(--color-base-content);
   }
 }
 @layer base {
-  :root {
+  .tw {
     --fx-noise: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='a'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='1.34' numOctaves='4' stitchTiles='stitch'%3E%3C/feTurbulence%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23a)' opacity='0.2'%3E%3C/rect%3E%3C/svg%3E");
   }
 }
@@ -950,7 +1054,7 @@
   }
 }
 @layer base {
-  :where( :root:has( .modal-open, .modal[open], .modal:target, .modal-toggle:checked, .drawer:not(.drawer-open) > .drawer-toggle:checked ) ) {
+  .tw :where( :root:has( .modal-open, .modal[open], .modal:target, .modal-toggle:checked, .drawer:not(.drawer-open) > .drawer-toggle:checked ) ) {
     scrollbar-gutter: stable;
     background-image: linear-gradient(var(--color-base-100), var(--color-base-100));
     --root-bg: var(--color-base-100);
@@ -958,12 +1062,12 @@
       --root-bg: color-mix(in srgb, var(--color-base-100), oklch(0% 0 0) 40%);
     }
   }
-  :where(.modal[open], .modal-open, .modal-toggle:checked + .modal):not(.modal-start, .modal-end) {
+  .tw :where(.modal[open], .modal-open, .modal-toggle:checked + .modal):not(.modal-start, .modal-end) {
     scrollbar-gutter: stable;
   }
 }
 @layer base {
-  :root {
+  .tw {
     scrollbar-color: currentColor #0000;
     @supports (color: color-mix(in lab, red, red)) {
       scrollbar-color: color-mix(in oklch, currentColor 35%, #0000) #0000;
@@ -971,7 +1075,7 @@
   }
 }
 @layer base {
-  :root:has( .modal-open, .modal[open], .modal:target, .modal-toggle:checked, .drawer:not([class*="drawer-open"]) > .drawer-toggle:checked ) {
+  .tw :root:has( .modal-open, .modal[open], .modal:target, .modal-toggle:checked, .drawer:not([class*="drawer-open"]) > .drawer-toggle:checked ) {
     overflow: hidden;
   }
 }
@@ -1093,7 +1197,7 @@
 }
 @layer properties {
   @supports ((-webkit-hyphens: none) and (not (margin-trim: inline))) or ((-moz-orient: inline) and (not (color:rgb(from red r g b)))) {
-    *, ::before, ::after, ::backdrop {
+    .tw *, .tw ::before, .tw ::after, .tw ::backdrop {
       --tw-border-style: solid;
       --tw-font-weight: initial;
       --tw-shadow: 0 0 #0000;
