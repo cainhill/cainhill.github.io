@@ -110,31 +110,6 @@ layout: default
         </div>
     </div>
 
-    <!-- Demo content to show navbar in context -->
-    <div class="container mx-auto p-8">
-        <div class="hero min-h-96 bg-base-200 rounded-lg">
-            <div class="hero-content text-center">
-                <div class="max-w-md">
-                    <h1 class="text-5xl font-bold">Welcome!</h1>
-                    <p class="py-6">This is a Jekyll navbar with work/hobby mode functionality using Liquid templating.</p>
-                    <div class="text-sm text-gray-600 space-y-1">
-                        <p>Current URL: <span class="font-mono">{{ page.url }}</span></p>
-                        <p>Current Mode: 
-                            <span class="font-bold">
-                                {% if is_work_mode %}Work{% elsif is_hobby_mode %}Hobby{% else %}Unknown{% endif %}
-                            </span>
-                        </p>
-                    </div>
-                    <div class="mt-4 text-xs text-gray-500">
-                        <p>Navigate to different pages to see the navbar change:</p>
-                        <p>/about/, /blog/, /projects/ → Work Mode</p>
-                        <p>/hobby/* → Hobby Mode</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
     <script>
         // Optional: Add click handlers for menu items
         document.addEventListener('DOMContentLoaded', function() {
