@@ -5,6 +5,16 @@ title: Mini Blog
 
 ---
 
+**August 25, 2025**
+
+Found this artist [Kooky Craftables](https://www.youtube.com/channel/UCZ6EZ7P9uuMv133bMmYkV1g) while looking at printer reviews. I love the creativity and how he's made templated paper craft anyone can assemble.
+
+#Art #Design #PaperCraft
+
+---
+
+---
+
 **February 2, 2024**
 
 **Use mind maps to reconnect with the higher purpose of daily tasks**
