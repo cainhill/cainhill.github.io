@@ -1559,7 +1559,7 @@
   font-family: "PT Sans", Helvetica, Arial, sans-serif !important;
 }
 @layer base {
-  .tw :where(#ch-nav),.tw #ch-nav:has(input.theme-controller[value=light]:checked),.tw [data-theme=light] {
+  .tw :where(),.tw :has(input.theme-controller[value=light]:checked),.tw [data-theme=light] {
     color-scheme: light;
     --color-base-100: oklch(100% 0 0);
     --color-base-200: oklch(98% 0 0);
@@ -1593,7 +1593,7 @@
 }
 @layer base {
   @media (prefers-color-scheme: dark) {
-    .tw #ch-nav {
+    .tw  {
       color-scheme: light;
       --color-base-100: oklch(100% 0 0);
       --color-base-200: oklch(98% 0 0);
@@ -1627,7 +1627,7 @@
   }
 }
 @layer base {
-  .tw #ch-nav:has(input.theme-controller[value=light]:checked),.tw [data-theme=light] {
+  .tw :has(input.theme-controller[value=light]:checked),.tw [data-theme=light] {
     color-scheme: light;
     --color-base-100: oklch(100% 0 0);
     --color-base-200: oklch(98% 0 0);
@@ -1660,7 +1660,7 @@
   }
 }
 @layer base {
-  .tw #ch-nav:has(input.theme-controller[value=light]:checked),.tw [data-theme=light] {
+  .tw :has(input.theme-controller[value=light]:checked),.tw [data-theme=light] {
     color-scheme: light;
     --color-base-100: oklch(100% 0 0);
     --color-base-200: oklch(98% 0 0);
