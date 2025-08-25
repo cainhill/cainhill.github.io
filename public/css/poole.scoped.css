@@ -39,24 +39,24 @@
   box-sizing: border-box;
 }
 
-html,
-body {
+.poole,
+.poole {
   margin: 0;
   padding: 0;
 }
 
-html {
+.poole {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
 }
 @media (min-width: 38em) {
-  html {
+  .poole {
     font-size: 20px;
   }
 }
 
-body {
+.poole {
   color: #515151;
   background-color: #fff;
   -webkit-text-size-adjust: 100%;

@@ -35,12 +35,12 @@
  */
 
 /* Prevent scroll on narrow devices */
-html,
-body {
+.lanyon,
+.lanyon {
   overflow-x: hidden;
 }
 
-html {
+.lanyon {
   font-family: "PT Serif", Georgia, "Times New Roman", serif;
 }
 
