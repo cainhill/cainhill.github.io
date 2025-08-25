@@ -1555,6 +1555,9 @@
     }
   }
 }
+.tw {
+  color-scheme: light;
+}
 @layer base {
   .tw :where(:root),.tw:has(input.theme-controller[value=light]:checked),.tw [data-theme=light] {
     color-scheme: light;
