@@ -3,21 +3,13 @@ layout: page
 title: Hobby
 ---
 
-## 🌱 Beyond Work
+## 🌱 Welcome to my hobby pages
 
-This part of the site is where I collect and share the things I do outside of my professional world. It’s a mix of creative projects, experiments, and reflections.  
+This part of my website gives a glimpse into pastimes that spark my curiosity and creativity.
 
-<br />
+From digital art and side hustles to favourite TV shows and coding experiments, these pages show a different side.
 
-## 🎨 Creative Outlets
-
-In my spare time, I run learning labs for early career professionals. I make **digital art**. I create useful **apps and templates**. These are places where I get to experiment. 
-
-<br />
-
-## 📺 Interests & Reflections
-
-I share about my interests and reflections in my **mini-blog** about the shows I love (Doctor Who, Stargate, The West Wing, Drag Race, theatre), the games I play, and what I'm learning. Sometimes it’s coding, automation, or home tech. Other times, it’s just something that caught my attention.  
+Whether you’re looking for inspiration, tips you can try yourself, or simply a bit of light-hearted insight into my interests, there’s something here to explore. Dive in, and you might find a shared hobby, a new idea, or just enjoy seeing what keeps me inspired outside of work.
 
 <br />
 
