@@ -1555,11 +1555,8 @@
     }
   }
 }
-#ch-nav * {
-  font-family: "PT Sans", Helvetica, Arial, sans-serif !important;
-}
 @layer base {
-  :where(),:has(input.theme-controller[value=light]:checked),[data-theme=light] {
+  :where(#ch-nav),#ch-nav:has(input.theme-controller[value=light]:checked),[data-theme=light] {
     color-scheme: light;
     --color-base-100: oklch(100% 0 0);
     --color-base-200: oklch(98% 0 0);
@@ -1593,7 +1590,7 @@
 }
 @layer base {
   @media (prefers-color-scheme: dark) {
-     {
+    #ch-nav {
       color-scheme: light;
       --color-base-100: oklch(100% 0 0);
       --color-base-200: oklch(98% 0 0);
@@ -1627,7 +1624,7 @@
   }
 }
 @layer base {
-  :has(input.theme-controller[value=light]:checked),[data-theme=light] {
+  #ch-nav:has(input.theme-controller[value=light]:checked),[data-theme=light] {
     color-scheme: light;
     --color-base-100: oklch(100% 0 0);
     --color-base-200: oklch(98% 0 0);
@@ -1660,7 +1657,7 @@
   }
 }
 @layer base {
-  :has(input.theme-controller[value=light]:checked),[data-theme=light] {
+  #ch-nav:has(input.theme-controller[value=light]:checked),[data-theme=light] {
     color-scheme: light;
     --color-base-100: oklch(100% 0 0);
     --color-base-200: oklch(98% 0 0);
