@@ -3,17 +3,11 @@ layout: page
 title: Hobby
 ---
 
-This part of my website gives a glimpse into pastimes that spark my curiosity and creativity.
+Welcome to the hobby section of my website. This is where I share about what keeps me inspired. Web clips, digital art, recommendations, reflections, etc.
 
-It is 
-
-From digital art and side hustles to favourite TV shows and coding experiments, these pages show a different side.
-
-Whether you’re looking for inspiration, tips you can try yourself, or simply a bit of light-hearted insight into my interests, there’s something here to explore. Dive in, and you might find a shared hobby, a new idea, or just enjoy seeing what keeps me inspired outside of work.
+There might be something in here that resonates with you. Poke around, take what serves you, and have fun!
 
 <br />
-
-## 🗂 Table of Contents
 
 - [**Next Level**](next_level)  
 - [**Digital Art**](digital_art)  
