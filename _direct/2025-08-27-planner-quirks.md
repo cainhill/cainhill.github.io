@@ -6,7 +6,7 @@ slug: kshu8359gai8
 
 ## Tip 1, Owner field should include all contributors
 
-✅ When you create a card, you should tag the card owner, the person who requested the card, and anyone who can meaningfully contribute to the card. When the card is due, everyone will get a notification to keep them on the same page
+✅ When you create a card, you should tag: the card owner, the person who requested the card, and anyone who can meaningfully contribute to the card. When the card is due, everyone will get a notification to keep them on the same page.
 
 🚨 Without this step the person requesting will lose visibility of the request when they filter for their own tasks.
 
