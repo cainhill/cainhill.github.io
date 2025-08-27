@@ -43,7 +43,6 @@ You can see each part adds context for the card owner:
 
 🚨 Without this trick, Planner's Calendar view will be completely clutter by cards spanning more than one day. Team members who want to sync their cards to Outlook will thank you.
 
-
 ## Tip 5 (Comments) - Prevent awkward missed messages
 
 ✅ When you create a card, make sure you also add a comment on the card so Planner sends you emails for any updates others make to the card.
