@@ -7,7 +7,10 @@ slug: kshu8359gai8
 ## Tip 1 (Owner): Include all contributors in the Owner field
 
 ✅ When you create a card, you should tag the card owner, the person who requested the card, and anyone who can meaningfully contribute to the card. When the card is due, everyone will get a notification to keep them on the same page
+
 🚨 Without this step the person requesting will lose visibility of the request when they filter for their own tasks.
+
+---
 
 ## Tip 2 (Name) - Name cards with embedded context
 
@@ -21,15 +24,17 @@ Note the format:
 
 You can see each part adds context for the card owner:
 
-- Owner: Who is the one person who has the next action?
+- **Owner**: Who is the one person who has the next action?
 
-- TOPIC: What are one or two words that summarise this card or the expected output for this card?
+- **TOPIC**: What are one or two words that summarise this card or the expected output for this card?
 
-- Requestor: Who asked for this to happen?
+- **Requestor:** Who asked for this to happen?
 
-- Action: What needs to happen?
+- **Action**: What needs to happen?
 
 🚨 Without this, confusion about why the card's purpose.
+
+---
 
 ## Tip 3 (Due Dates) - Avoid confusion about due dates
 
@@ -37,11 +42,15 @@ You can see each part adds context for the card owner:
 
 🚨 Without this, due dates are never set and the cards aren't progressed. 
 
+---
+
 ## Tip 4 (Start Dates) - Keep the Calendar view uncluttered
 
 ✅ When you create a card, intentionally set every start date to blank so that all cards are contained within a single day on the Calendar view.
 
 🚨 Without this trick, Planner's Calendar view will be completely clutter by cards spanning more than one day. Team members who want to sync their cards to Outlook will thank you.
+
+---
 
 ## Tip 5 (Comments) - Prevent awkward missed messages
 
