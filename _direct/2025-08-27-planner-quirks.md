@@ -32,9 +32,9 @@ You can see each part of this name adds context for the card owner:
  
  An example would be:
  
- ```
- (Tracy) EXCEL: For Bec, Ask Steve for finance report
- ```
+```
+(Tracy) EXCEL: For Bec, Ask Steve for finance report
+```
 
 Without this, there will be confusion about the card's purpose.
 
