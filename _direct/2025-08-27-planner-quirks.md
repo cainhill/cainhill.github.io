@@ -4,7 +4,7 @@ title: Use these tricks for better teamwork in Microsoft Planner
 slug: kshu8359gai8
 ---
 
-## Tip 1, Owner field should include all contributors
+## 1. To help everyone see updates, the **Owner** field should include all contributors
 
 ✅ When you create a card, you should tag: the card owner, the person who requested the card, and anyone who can meaningfully contribute to the card. When the card is due, everyone will get a notification to keep them on the same page.
 
@@ -12,7 +12,7 @@ slug: kshu8359gai8
 
 ---
 
-## Tip 2, Name field should include context clues
+## 2. To make progress easier, the **Name** field should include context clues
 
 ✅ When you create a card, it's helpful to name the card like this:
 
@@ -36,7 +36,7 @@ You can see each part of this name adds context for the card owner:
 
 ---
 
-## Tip 3 (Due Dates) - Avoid confusion about due dates
+## 3. For timely updates, set the **Due Date** field to next week unless specified
 
 ✅ When you create a card, if the meeting did not specify a due date for the card, then you should set the due date to the earlier of a) next week's Friday, or b) the next relevant meeting. This will force a conversation about the due date for cards where a timeframe was never agreed in the first place, and lets you remind team to update card due dates.
 
@@ -44,7 +44,7 @@ You can see each part of this name adds context for the card owner:
 
 ---
 
-## Tip 4 (Start Dates) - Keep the Calendar view uncluttered
+## 4. To keep the Calendar view uncluttered, keep the Start Dates field blank
 
 ✅ When you create a card, intentionally set every start date to blank so that all cards are contained within a single day on the Calendar view.
 
@@ -52,7 +52,7 @@ You can see each part of this name adds context for the card owner:
 
 ---
 
-## Tip 5 (Comments) - Prevent awkward missed messages
+## To avoid missed messages, add the first Comment on any card you assign to someone else
 
 ✅ When you create a card, make sure you also add a comment on the card so Planner sends you emails for any updates others make to the card.
 
