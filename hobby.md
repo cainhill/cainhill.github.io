@@ -3,9 +3,9 @@ layout: page
 title: Hobby
 ---
 
-## 🌱 Welcome to my hobby pages
-
 This part of my website gives a glimpse into pastimes that spark my curiosity and creativity.
+
+It is 
 
 From digital art and side hustles to favourite TV shows and coding experiments, these pages show a different side.
 
