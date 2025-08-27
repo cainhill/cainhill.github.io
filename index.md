@@ -9,10 +9,7 @@ title: Home
 
 Has your team ever wanted to adopt a new HR system or modify your existing one to get more out of it?
 
-**I help leaders adopt the latest workforce platforms into their organisations**  
-\- from strategy design to program management and technical configuration.
-
-In essence, I'm on a mission to get the best technology value for HR teams.
+**I help leaders adopt the latest workforce platforms into their organisations,** with a skillset that bridges strategy and execution.
 
 With 10+ years' experience delivering global HRIS projects, I work across HR domains such as compensation, benefits, security, reporting, data, and role design to embed real improvements.
 
