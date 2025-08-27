@@ -4,7 +4,7 @@ title: Use these tricks for better teamwork in Microsoft Planner
 slug: kshu8359gai8
 ---
 
-## Tip 1 (Owner): Include all contributors in the Owner field
+## Tip 1, Owner field should include all contributors
 
 ✅ When you create a card, you should tag the card owner, the person who requested the card, and anyone who can meaningfully contribute to the card. When the card is due, everyone will get a notification to keep them on the same page
 
@@ -12,27 +12,27 @@ slug: kshu8359gai8
 
 ---
 
-## Tip 2 (Name) - Name cards with embedded context
+## Tip 2, Name field should include context clues
 
-✅ When you create a card, name the card like this:
-
-(Tracy) NOMINATIONS: For Bec, Ask Steve for nominations list
-
-Note the format:
+✅ When you create a card, it's helpful to name the card like this:
 
 (**Owner**) **TOPIC**: For **Requester**, **Action**
 
-You can see each part adds context for the card owner:
+You can see each part of this name adds context for the card owner:
 
-- **Owner**: Who is the one person who has the next action?
+ - **Owner**: Who is the one person who has the next action?
+ 
+ - **TOPIC**: What are one or two words that summarise this card or the expected output for this card?
+ 
+ - **Requestor:** Who asked for this to happen?
+ 
+ - **Action**: What needs to happen?
+ 
+ An example would be:
+ 
+ (Tracy) EXCEL: For Bec, Ask Steve for finance report
 
-- **TOPIC**: What are one or two words that summarise this card or the expected output for this card?
-
-- **Requestor:** Who asked for this to happen?
-
-- **Action**: What needs to happen?
-
-🚨 Without this, confusion about why the card's purpose.
+🚨 Without this, confusion about the card's purpose.
 
 ---
 
