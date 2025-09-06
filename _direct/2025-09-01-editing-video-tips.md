@@ -6,7 +6,7 @@ slug: isbfkdh53935
 
 # Toolkit
 
-1. Download sounds (whoosh, sting, scratch)
+1. Download sounds (whoosh, risers, sting, scratch)
 
 # Planning
 
