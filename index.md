@@ -11,9 +11,9 @@ Has your team ever wanted to adopt a new HR system or modify your existing one t
 
 **I help leaders adopt the latest workforce platforms into their organisations,** with a skillset that bridges strategy and execution.
 
-With 10+ years' experience delivering global HRIS projects, I work across HR domains such as compensation, benefits, security, reporting, data, and role design to embed real improvements.
+With 10+ years' experience delivering global HRIS projects, I work across HR domains such as compensation, benefits, security, reporting, data, and role design to help teams make technology and process improvements.
 
-If you'd like to connect, please [send me a message here](https://www.linkedin.com/in/cainhill/).
+If you'd like to connect, please [send me a message here](https://www.linkedin.com/in/cainhill/) or find out more about my experience on my [about](/about) page.
 
 <br />
 
