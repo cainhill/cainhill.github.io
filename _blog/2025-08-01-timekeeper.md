@@ -9,9 +9,9 @@ I've never liked cutting off a presenter who is running over their allocated tim
 
 1. ⏩ **Slide Nudge**
 
-If the presenter has spent 4 minutes talking to a slide planned for 2 minutes, then I'll click next slide as a subtle cue they need to start presenting the next slide to keep to time. This is fine, so long as you have talked with the presenters beforehand to let them know you may do this.
+   If the presenter has spent 4 minutes talking to a slide planned for 2 minutes, then I'll click next slide as a subtle cue they need to start presenting the next slide to keep to time. This is fine, so long as you have talked with the presenters beforehand to let them know you may do this.
 
-2. ✋ **Raise Your Hand**
+3. ✋ **Raise Your Hand**
 
 If the presenter is running over time, then I will "raise my hand" virtually, and they will usually ask if I have a question. At that point, I usually say that I have no question, but we've reached the end of the allocated time for this topic and I'd like to thank them for their update. To smooth over the transition, you can also ask attendees to share a reaction in the chat (smile, applause) to thank the presenter for their time.
 
