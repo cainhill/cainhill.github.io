@@ -10,8 +10,7 @@ title: Helping presenters keep to time in virtual settings
 ---
 
 ## ✅ What works?
-
-  
+ㅤㅤㅤㅤㅤ
 - **Slide Nudge**
 
    If the presenter has spent 4 minutes talking to a slide planned for 2 minutes, then I'll click next slide as a subtle cue they need to start presenting the next slide to keep to time. This is fine, so long as you have talked with the presenters beforehand to let them know you may do this.
@@ -27,8 +26,7 @@ title: Helping presenters keep to time in virtual settings
 ---
 
 ## ❌ **What doesn't work?**
-
-  
+ㅤㅤㅤㅤㅤ
 - **Countdown Timers:**
 
   Adding a timer to the slides themselves is stressful for the presenters and does not work across slides.
