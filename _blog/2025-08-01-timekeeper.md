@@ -12,6 +12,12 @@ If the presenter has spent 4 minutes talking to a slide planned for 2 minutes, t
 If the presenter is running over time, then I will "raise my hand" virtually, and they will usually ask if I have a question. At that point, I usually say that I have no question, but we've reached the end of the allocated time for this topic and I'd like to thank them for their update. To smooth over the transition, you can ask all attendees to share a reaction (smile, applause) to thank the presenter for their time.
 
 3. 🕒 **Clock Slide**
-The last technique is a hidden timing slide. I have a Slide 1 with a 30-second fade and a clock icon. If someone talks too long, I type “1” and hit Enter. The clock animation runs, then returns to the previous slide, so I don’t lose my place. It’s a gentle but unmistakable nudge.
+The last technique is a hidden timing slide. I have a Slide 1 with a 30-second fade and a clock icon. If someone talks too long, I type “1” and hit Enter. The clock animation runs, then returns to the previous slide, so I don’t lose my place. This is a more direct interruption.
 
 These tips can be used in addition to other popular advice: setting clear timing allocations, briefimg your presenters, running a practice presentation, or giving presenters timers.
+
+**What does not work?**
+
+❌ Putting a countdown timer on the slides themselves is stressful for the presenters and does not work across slides.
+❌ Signalling the presenter by moving the mouse cursor around on the screen.
+❌ I have previously tried to fade to black or white, or stop presenting the slides entirely, but interestingly presenters would often interpret this as a technical glitch rather than a subtle cue to conclude.
