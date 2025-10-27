@@ -1,19 +1,17 @@
 ---
 layout: post
-title: Practical AI use for a Chief of Staff
+title: Modern techniques for keeping virtual presentations on time
 ---
 
-```
+**Quick Summary:** I've never liked cutting off a presenter who is running over their allocated time, but after years of facilitating decision-meetings, workshops, and company presentations, I've figured out some ways to interrupt a "runaway speaker" that you might like to add to your toolkit.
 
-**Prompt: Review planned activity for strategy fitk**
+1. ⏩ Slide Nudge
+If the presenter has spent 4 minutes talking to a slide planned for 2 minutes, then I'll click next slide as a subtle cue they need to start presenting the next slide to keep to time.
 
-I’m going to give you initiative proposals from senior leaders. For each initiative, do the following:
+2. ✋ Raise Your Hand
+If he presenter is at time and has not wrapped up, then I will "raise my hand" virtually, and they will usually ask if I have a question. At that point, I usually say that I have no question, but we've reached the end of the allocated time for this topic amd I'd like to thank them for their update and invite the call to add support reactions.
 
-1. Restate the idea in simple "explain like I’m 5" language. Avoid all jargon.  
-2. Identify the leader’s stated strategic intent in plain terms (e.g. growth, efficiency, risk reduction).  
-3. Assess how well the initiative aligns to that intent (strong / partial / weak alignment).  
-4. Give your independent view of the likelihood the initiative will achieve that intent, based only on the details provided (high / medium / low), and explain why.  
-5. Flag if the initiative seems to set unrealistically low targets or fudges outcomes.  
-6. Suggest 1–2 sharper ways the initiative could be reframed to better match strategic intent.
+3. 🕒 Clock Slide
+The last technique is a hidden timing slide. I have a Slide 1 with a 30-second fade and a clock icon. If someone talks too long, I type “1” and hit Enter. The clock animation runs, then returns to the previous slide, so I don’t lose my place. It’s a gentle but unmistakable nudge.
 
-```
+These tips can be used in addition to other popular advice: setting clear timing allocations, briefimg your presenters, running a practice presentation, or giving presenters timers.
