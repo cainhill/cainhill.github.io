@@ -13,11 +13,11 @@ I've never liked cutting off a presenter who is running over their allocated tim
 
 3. ✋ **Raise Your Hand**
 
-If the presenter is running over time, then I will "raise my hand" virtually, and they will usually ask if I have a question. At that point, I usually say that I have no question, but we've reached the end of the allocated time for this topic and I'd like to thank them for their update. To smooth over the transition, you can also ask attendees to share a reaction in the chat (smile, applause) to thank the presenter for their time.
+   If the presenter is running over time, then I will "raise my hand" virtually, and they will usually ask if I have a question. At that point, I usually say that I have no question, but we've reached the end of the allocated time for this topic and I'd like to thank them for their update. To smooth over the transition, you can also ask attendees to share a reaction in the chat (smile, applause) to thank the presenter for their time.
 
 3. 🕒 **Clock Slide**
 
-The last technique is a hidden timing slide. I have a Slide 1 with a 30-second fade and a clock icon. If someone talks too long, I type “1” and hit Enter. The clock animation runs, then returns to the previous slide, so I don’t lose my place. This is a more direct interruption.
+   The last technique is a hidden timing slide. I have a Slide 1 with a 30-second fade and a clock icon. If someone talks too long, I type “1” and hit Enter. The clock animation runs, then returns to the previous slide, so I don’t lose my place. This is a more direct interruption.
 
 These tips can be used in addition to other popular advice: setting clear timing allocations, briefing your presenters, running a practice presentation, or giving presenters timers.
 
