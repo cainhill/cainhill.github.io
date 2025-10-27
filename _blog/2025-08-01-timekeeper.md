@@ -7,7 +7,7 @@ title: Modern techniques for keeping virtual presentations on time
 
 I've never liked cutting off a presenter who is running over their allocated time, but after years of facilitating decision-meetings, workshops, and company presentations, these are the tips I use to help presenters keep to time...
 
-## What works?
+## ✅ What does work?
 
 1. ⏩ **Slide Nudge**
 
@@ -23,8 +23,8 @@ I've never liked cutting off a presenter who is running over their allocated tim
 
 These tips can be used in addition to other popular advice: setting clear timing allocations, briefing your presenters, running a practice presentation, or giving presenters timers.
 
-**What does not work?**
+## ❌ What does not work?
 
-- ❌ **Countdown Timers:** Adding a timer to the slides themselves is stressful for the presenters and does not work across slides.
-- ❌ **Mouse Signals:** In the early days of virtual presenting, I would jiggle the mouse around the bottom of the screen as a secret cue to the presenter, but we found that the presenter would often be absorbed by presenting and not register such a subtle hint.
-- ❌ **Screen Blanking:** I have previously tried to blank the screen to help presenters conclude (fading to black or white, or stopping presenting the slides entirely), but presenters would often interpret this as a technical glitch rather than a subtle cue to conclude.
+- **Countdown Timers:** Adding a timer to the slides themselves is stressful for the presenters and does not work across slides.
+- **Mouse Signals:** In the early days of virtual presenting, I would jiggle the mouse around the bottom of the screen as a secret cue to the presenter, but we found that the presenter would often be absorbed by presenting and not register such a subtle hint.
+- **Screen Blanking:** I have previously tried to blank the screen to help presenters conclude (fading to black or white, or stopping presenting the slides entirely), but presenters would often interpret this as a technical glitch rather than a subtle cue to conclude.
