@@ -27,7 +27,7 @@ title: Helping presenters keep to time in virtual settings
 
 - **Mouse Signals:**
 
-  In the early days of virtual presenting, I would jiggle the mouse around the bottom of the screen as a secret cue to the presenter, but we found that the presenter would often be absorbed by presenting and not register such a subtle hint.
+  In the early days of virtual presenting, I would jiggle the mouse around the bottom of the screen as a pre-agreed secret cue to the presenter, but we found that the presenter would often be absorbed by presenting and not register such a subtle hint.
 
 - **Screen Blanking:**
 
