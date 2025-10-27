@@ -9,7 +9,7 @@ title: Helping presenters keep to time in virtual settings
 
 ---
 
-✅ **What does work?**
+## ✅ What works?
 
 - **Slide Nudge**
 
@@ -25,7 +25,7 @@ title: Helping presenters keep to time in virtual settings
 
 ---
 
-❌ **What does not work?**
+## ❌ **What doesn't work?**
 
 - **Countdown Timers:**
 
