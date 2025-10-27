@@ -3,6 +3,8 @@ layout: post
 title: Helping presenters keep to time in virtual settings
 ---
 
+---
+
 **Quick Summary:** Use these tips to interrupt a presenter running over their time allocation in a virtual setting. I've never liked cutting off a presenter who is running over their allocated time, but after years of facilitating decision-meetings, workshops, and company presentations, these are the tips I use to help presenters keep to time...
 
 ---
