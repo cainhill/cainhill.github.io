@@ -4,7 +4,7 @@ title: Make PowerPoint slides that survive rebrands and restructures
 ---
 **Quick Summary:** There are 4 rules I follow for internal company PowerPoints to ensure those slides survive rebrands and restructures.
 
-1. Never recreate, screenshot&cite instead
+1. Never recreate, screenshot & cite instead
 2. Only link to stable URLs
 3. Use neutral slide colours
 4. Make it easy to invert your slide colours
@@ -18,7 +18,7 @@ Organisations that use PowerPoints as a store for important reference informatio
 
 ## The Techniques
 ㅤㅤㅤㅤㅤ
-1. **Never recreate, screenshot&cite instead**
+1. **Never recreate, screenshot & cite instead**
    Especially for internal presentations, it is a huge waste of time to recreate diagrams or tables that could just have been screenshots with citations back to the source. In most cases, it is better to have a screenshot so the reader understands that the data is not mastered in the PowerPoint. I recommend using greyscale for screenshots as a visual indicator and giving a link back to the source so readers can self-source fresh information.
 
 2. **Only save and link to stable URLs**
