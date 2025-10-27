@@ -7,6 +7,8 @@ title: Modern techniques for keeping virtual presentations on time
 
 I've never liked cutting off a presenter who is running over their allocated time, but after years of facilitating decision-meetings, workshops, and company presentations, these are the tips I use to help presenters keep to time...
 
+## What works?
+
 1. ⏩ **Slide Nudge**
 
    If the presenter has spent 4 minutes talking to a slide planned for 2 minutes, then I'll click next slide as a subtle cue they need to start presenting the next slide to keep to time. This is fine, so long as you have talked with the presenters beforehand to let them know you may do this.
@@ -23,6 +25,6 @@ These tips can be used in addition to other popular advice: setting clear timing
 
 **What does not work?**
 
-- ❌ Putting a countdown timer on the slides themselves is stressful for the presenters and does not work across slides.
-- ❌ Signalling the presenter by moving the mouse cursor around on the screen.
-- ❌ I have previously tried to fade the screen to black or white, or stop presenting the slides entirely, but interestingly presenters would often interpret this as a technical glitch rather than a subtle cue to conclude.
+- ❌ **Countdown Timers:** Adding a timer to the slides themselves is stressful for the presenters and does not work across slides.
+- ❌ **Mouse Signals:** In the early days of virtual presenting, I would jiggle the mouse around the bottom of the screen as a secret cue to the presenter, but we found that the presenter would often be absorbed by presenting and not register such a subtle hint.
+- ❌ **Screen Blanking:** I have previously tried to blank the screen to help presenters conclude (fading to black or white, or stopping presenting the slides entirely), but presenters would often interpret this as a technical glitch rather than a subtle cue to conclude.
