@@ -27,6 +27,10 @@ I've never liked cutting off a presenter who is running over their allocated tim
 
   Adding a timer to the slides themselves is stressful for the presenters and does not work across slides.
 
-- **Mouse Signals:** In the early days of virtual presenting, I would jiggle the mouse around the bottom of the screen as a secret cue to the presenter, but we found that the presenter would often be absorbed by presenting and not register such a subtle hint.
+- **Mouse Signals:**
 
-- **Screen Blanking:** I have previously tried to blank the screen to help presenters conclude (fading to black or white, or stopping presenting the slides entirely), but presenters would often interpret this as a technical glitch rather than a subtle cue to conclude.
+  In the early days of virtual presenting, I would jiggle the mouse around the bottom of the screen as a secret cue to the presenter, but we found that the presenter would often be absorbed by presenting and not register such a subtle hint.
+
+- **Screen Blanking:**
+
+  I have previously tried to blank the screen to help presenters conclude (fading to black or white, or stopping presenting the slides entirely), but presenters would often interpret this as a technical glitch rather than a subtle cue to conclude.
