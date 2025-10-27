@@ -9,8 +9,13 @@ title: Make PowerPoint slides that survive rebrands and restructures
 3. Use neutral slide colours
 4. Make it easy to invert your slide colours
 
-**Problem:**
+---
+
+## Problem
+ㅤㅤㅤㅤㅤ
 Organisations that use PowerPoints as a store for important reference information often waste time keeping those presentations aligned to the latest company design - when a few simple rules can prevent this avoidable rework.
+
+---
 
 **1. Never recreate, screenshot&cite instead**
 Especially for internal presentations, it is a huge waste of time to recreate diagrams or tables that could just have been screenshots with citations back to the source. In most cases, it is better to have a screenshot so the reader understands that the data is not mastered in the PowerPoint. I recommend using greyscale for screenshots as a visual indicator and giving a link back to the source so readers can self-source fresh information.
@@ -24,8 +29,10 @@ Use of grey boxes and black borders is preferred. From year to year, there may b
 **4. Make it easy to invert your slide colours**
 If you use the right PowerPoint templates, it is easy to switch a whole presentation file to Dark Mode. This is important to stay adaptable to year where organisations want to switch to white text on black backgrounds.
 
-Related Links:
+---
 
+## Related Links:
+ㅤㅤㅤㅤㅤ
 [1] "No Presenting in Meetings - CEO Handbook Learning Session" by GitLab Unfiltered https://www.youtube.com/live/32GJ2ehUBhs?si=C89XslkWos23lBGb
 
 [2] "Rhonda & Karsten's Branding Masterclass | Utopia" https://youtu.be/-yHbD_7HLY4?si=840MeDuaBGSDusrw
