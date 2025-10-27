@@ -22,4 +22,4 @@ These tips can be used in addition to other popular advice: setting clear timing
 
 ❌ Putting a countdown timer on the slides themselves is stressful for the presenters and does not work across slides.
 ❌ Signalling the presenter by moving the mouse cursor around on the screen.
-❌ I have previously tried to fade to black or white, or stop presenting the slides entirely, but interestingly presenters would often interpret this as a technical glitch rather than a subtle cue to conclude.
+❌ I have previously tried to fade the screen to black or white, or stop presenting the slides entirely, but interestingly presenters would often interpret this as a technical glitch rather than a subtle cue to conclude.
