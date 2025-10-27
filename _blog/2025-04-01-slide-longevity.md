@@ -12,7 +12,7 @@ title: Make PowerPoint slides that survive rebrands and restructures
 ---
 
 ## Problem
-Organisations that use PowerPoints as a store for important reference information often waste time keeping those presentations aligned to the latest company design - when a few simple rules can prevent this avoidable rework.
+Organisations that use PowerPoints as a store for important reference information often waste time keeping those presentations aligned to the latest company design - but did you know that a few simple rules can prevent that rework?
 
 ---
 
