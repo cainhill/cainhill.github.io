@@ -2,7 +2,7 @@
 layout: post
 title: Make PowerPoint slides that survive rebrands and restructures
 ---
-**Quick Summary:** There are 5 rules everyone should follow for internal company PowerPoints to ensure those slides survive rebrands and restructures.
+**Quick Summary:** There are 4 rules I follow for internal company PowerPoints to ensure those slides survive rebrands and restructures.
 
 1. Never recreate, screenshot&cite instead
 2. Only link to stable URLs
