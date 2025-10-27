@@ -7,7 +7,7 @@ title: Helping presenters keep to time in virtual settings
 
 ---
 
-## ✅ What does work?
+✅ **What does work?**
 
 - **Slide Nudge**
 
@@ -21,7 +21,9 @@ title: Helping presenters keep to time in virtual settings
 
    The last technique is a hidden timing slide. I have a Slide 1 with a 30-second fade and a clock icon. If someone talks too long, I type “1” and hit Enter. The clock animation runs, then returns to the previous slide, so I don’t lose my place. This is a more direct interruption.
 
-## ❌ What does not work?
+---
+
+❌ **What does not work?**
 
 - **Countdown Timers:**
 
