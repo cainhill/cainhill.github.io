@@ -3,7 +3,9 @@ layout: post
 title: Modern techniques for keeping virtual presentations on time
 ---
 
-**Quick Summary:** Use these tips to interrupt a presenter running over their time allocation. I've never liked cutting off a presenter who is running over their allocated time, but after years of facilitating decision-meetings, workshops, and company presentations, I've figured out these techniques that I don't see talked about a lot...
+**Quick Summary:** Use these tips to interrupt a presenter running over their time allocation.
+
+I've never liked cutting off a presenter who is running over their allocated time, but after years of facilitating decision-meetings, workshops, and company presentations, I've figured out these techniques that I don't see talked about a lot...
 
 1. ⏩ **Slide Nudge**
 If the presenter has spent 4 minutes talking to a slide planned for 2 minutes, then I'll click next slide as a subtle cue they need to start presenting the next slide to keep to time.
