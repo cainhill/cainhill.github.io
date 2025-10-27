@@ -1,19 +1,14 @@
 ---
 layout: post
-title: Practical AI use for a Chief of Staff
+title: Use this checklist to cut through AI headlines
 ---
 
-```
+**Quick Summary:** In 2025, we have been inundated by a frenzy of content about Artifical Intelligence and a collective urgency to understand as much as we can about it. To sort signal from noise, I am applying the following checklist to my newsfeeds, and I invite you to do the same if you are looking for a way to narrow the AI topic.
 
-**Prompt: Review planned activity for strategy fitk**
+With few exceptions, I have started to only read/watch content when one of the following is true:
 
-I’m going to give you initiative proposals from senior leaders. For each initiative, do the following:
+1. **Demonstrated Work**:  The author has undertaken some measure of direct work and has findings to report.
 
-1. Restate the idea in simple "explain like I’m 5" language. Avoid all jargon.  
-2. Identify the leader’s stated strategic intent in plain terms (e.g. growth, efficiency, risk reduction).  
-3. Assess how well the initiative aligns to that intent (strong / partial / weak alignment).  
-4. Give your independent view of the likelihood the initiative will achieve that intent, based only on the details provided (high / medium / low), and explain why.  
-5. Flag if the initiative seems to set unrealistically low targets or fudges outcomes.  
-6. Suggest 1–2 sharper ways the initiative could be reframed to better match strategic intent.
+3. **Lacking Problem**: I think the content is far more compelling if the author has clearly started their exploration from an existing problem and added AI, rather than starting with AI as a solution and seeking a problem for it to fix.
 
-```
+1. Is this content speculative
