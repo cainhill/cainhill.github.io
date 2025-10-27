@@ -12,15 +12,14 @@ title: Make PowerPoint slides that survive rebrands and restructures
 ---
 
 ## Problem
-ㅤㅤㅤㅤㅤ
 Organisations that use PowerPoints as a store for important reference information often waste time keeping those presentations aligned to the latest company design - when a few simple rules can prevent this avoidable rework.
 
 ---
 
 ## The Techniques
 ㅤㅤㅤㅤㅤ
-**1. Never recreate, screenshot&cite instead**
-Especially for internal presentations, it is a huge waste of time to recreate diagrams or tables that could just have been screenshots with citations back to the source. In most cases, it is better to have a screenshot so the reader understands that the data is not mastered in the PowerPoint. I recommend using greyscale for screenshots as a visual indicator and giving a link back to the source so readers can self-source fresh information.
+1. **Never recreate, screenshot&cite instead**
+   Especially for internal presentations, it is a huge waste of time to recreate diagrams or tables that could just have been screenshots with citations back to the source. In most cases, it is better to have a screenshot so the reader understands that the data is not mastered in the PowerPoint. I recommend using greyscale for screenshots as a visual indicator and giving a link back to the source so readers can self-source fresh information.
 
 **2. Only save and link to stable URLs**
 In general, the only safe places to link in an organisation are the company intranet pages or a place that will not be restructured lightlym For this reason, it is not good to link from a PowerPoint to an MsTeams file, since MsTeams groups are temporary and can vanish easily, breaking your link.
