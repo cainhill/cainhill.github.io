@@ -33,10 +33,10 @@ Organisations that use PowerPoints as a store for important reference informatio
 ---
 
 ## Related Links:
-ㅤㅤㅤㅤㅤ
+
 [1] "No Presenting in Meetings - CEO Handbook Learning Session" by GitLab Unfiltered https://www.youtube.com/live/32GJ2ehUBhs?si=C89XslkWos23lBGb
 
-[2] "Rhonda & Karsten's Branding Masterclass | Utopia" https://youtu.be/-yHbD_7HLY4?si=840MeDuaBGSDusrw
+[2] "Rhonda & Karsten's Branding Masterclass \| Utopia" https://youtu.be/-yHbD_7HLY4?si=840MeDuaBGSDusrw
 
 [3] "Inverting colours" by  https://www.reddit.com/r/powerpoint/comments/oju4jt/inverting_colours/?rdt=45456
 
