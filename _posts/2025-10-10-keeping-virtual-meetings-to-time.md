@@ -9,7 +9,7 @@ tags: [virtual-meetings, presentations]
 ---
 
 ## ✅ What works?
-ㅤㅤㅤㅤㅤ
+
 - **Slide Nudge**
 
    If the presenter has spent 4 minutes talking to a slide planned for 2 minutes, then I'll click next slide as a subtle cue they need to start presenting the next slide to keep to time. This is fine, so long as you have talked with the presenter beforehand to let them know you may do this.
@@ -25,7 +25,7 @@ tags: [virtual-meetings, presentations]
 ---
 
 ## ❌ **What doesn't work?**
-ㅤㅤㅤㅤㅤ
+
 - **Countdown Timers**
 
   Adding a timer to the slides themselves is stressful for the presenters and does not work across slides.
