@@ -23,7 +23,7 @@ Use these tips to interrupt a presenter running over their time allocation in a 
 
 ---
 
-## ❌ **What doesn't work?**
+## ❌ What doesn't work?
 
 - **Countdown Timers**
 
@@ -36,3 +36,9 @@ Use these tips to interrupt a presenter running over their time allocation in a 
 - **Screen Blanking**
 
   I have previously tried to blank the screen to help presenters conclude (fading to black or white, or stopping presenting the slides entirely), but presenters would often interpret this as a technical glitch rather than a subtle cue to conclude.
+
+## Makes me think of
+
+A hilarious bit from Jack Black and Will Ferrell at the 2004 Oscars.
+
+{% include embed/youtube.html id='NoXLu9Rz70g' %}
