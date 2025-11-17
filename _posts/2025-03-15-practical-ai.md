@@ -1,3 +1,7 @@
+---
+tags: [ ai, sales-data ]
+---
+
 # Exploring how AI handles real business problems
 
 ## Context
