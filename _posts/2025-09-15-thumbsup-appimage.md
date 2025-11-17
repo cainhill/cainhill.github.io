@@ -164,10 +164,8 @@ sudo mv appimagetool-x86_64.AppImage /usr/local/bin/appimagetool
 ## Resources
 [^1]: https://github.com/AppImage/AppImageSpec/blob/master/draft.md
 [^2]: https://github.com/AppImage/docs.appimage.org/blob/master/source/packaging-guide/manual.rst
-[^3]: https://github.com/thumbsup/thumbsup
-[^4]: https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard
-[^5]: http://www.graphicsmagick.org/INSTALL-unix.html
-[^6]: https://linuxconfig.org/building-a-hello-world-appimage-on-linux
-[^7]: https://appimage-builder.readthedocs.io/en/latest/
-[^8]: https://appimage-builder.readthedocs.io/en/latest/advanced/signing.html#appimage-signing
-[^9]: https://appimage-builder.readthedocs.io/en/latest/advanced/troubleshooting.html
+[^3]: http://www.graphicsmagick.org/INSTALL-unix.html
+[^4]: https://linuxconfig.org/building-a-hello-world-appimage-on-linux
+[^5]: https://appimage-builder.readthedocs.io/en/latest/
+[^6]: https://appimage-builder.readthedocs.io/en/latest/advanced/signing.html#appimage-signing
+[^7]: https://appimage-builder.readthedocs.io/en/latest/advanced/troubleshooting.html
