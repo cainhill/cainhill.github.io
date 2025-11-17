@@ -28,7 +28,7 @@ This build was successfully completed using the following version numbers:
 
 **Creating the AppDir**
 
-1. Because thumbsup is a command-line tool, it is best to use the instructions for manually building an AppImage (refer to the official AppImage documentation[^1] or the ).
+1. Because thumbsup is a command-line tool, it is best to use the instructions for manually building an AppImage (refer to the official AppImage documentation[^1] or this helpful tutorial[^2]).
 
 2. Create an AppDir, which is essentially a standard folder to contain everything appimgtool needs to build an AppImage binary file. I stored mine in my normal projects folder.
 ```
