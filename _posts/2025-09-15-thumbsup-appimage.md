@@ -44,61 +44,63 @@ thumbsup-portable/bin/
 thumbsup-portable/lib/
 thumbsup-portable/thumbsup-portable.png
 ```
+4. Next, create the **thumbsup-portable.desktop** file, with this content.
+```
 
-4. Next, embed a copy of the following into the AppDir: nodejs, thumbsup, ffmpeg, and graphicsmagick. Starting with nodejs.
+```
+5. Next, embed a copy of the following into the AppDir: nodejs, thumbsup, ffmpeg, and graphicsmagick. Starting with nodejs.
 
 **Embedding the tool and dependencies into AppDir**
 
-5. As at 2025-11-11, the thumbsup repository hints that it depends on node v18 (you can see this version listed in this file https://github.com/thumbsup/thumbsup/blob/master/.nvmrc).
+1. As at 2025-11-11, the thumbsup repository hints that it depends on node v18 (you can see this version listed in this file https://github.com/thumbsup/thumbsup/blob/master/.nvmrc).
 
-6. Go to (https://nodejs.org/en/download/) and make the following selections and press **Standalone Binary (.xz)** to download:
+2. Go to (https://nodejs.org/en/download/) and make the following selections and press **Standalone Binary (.xz)** to download:
 ```
 Get Node.js® = v18.20.8
 Or get a prebuilt Node.js® for = Linux
 running a = x64
 ```
 
-7. If the above doesn't work, the direct link was (https://nodejs.org/dist/v18.20.8/node-v18.20.8-linux-x64.tar.xz) when I used it.
+3. If the above doesn't work, the direct link was (https://nodejs.org/dist/v18.20.8/node-v18.20.8-linux-x64.tar.xz) when I used it.
 
-8. Then extract the contents of the .tar.xz into the **thumbsup-portable/bin/** folder. This creats a folder called **node-v18.20.8-linux-x64**, containing folders such as **bin**, **include**, and others.
+4. Then extract the contents of the .tar.xz into the **thumbsup-portable/bin/** folder. This creats a folder called **node-v18.20.8-linux-x64**, containing folders such as **bin**, **include**, and others.
 
-9. Rename the **node-v18.20.8-linux-x64** folder to **node** and delete the original .tar.xz file.
-
-10. Enable execute permissions on the following files:
+5. Rename the **node-v18.20.8-linux-x64** folder to **node** and delete the original .tar.xz file.
+6. Enable execute permissions on the following files:
 ```
 thumbsup-portable/usr/bin/node/bin/node
 ```
 
-11. Now, download the thumbsup tool itself into the AppDir. Importantly, because thumbsup is a collection of files and not a single binary, I stored it in the **thumbsup-portable/usr/lib/** folder.
+7. Now, download the thumbsup tool itself into the AppDir. Importantly, because thumbsup is a collection of files and not a single binary, I stored it in the **thumbsup-portable/usr/lib/** folder.
 
-12. Run the following from the **thumbsup-portable/usr/** folder. Note, the **./bin** prefix ensures that the node binary just downloaded will be used, rather than any existing node package on the system.
+8. Run the following from the **thumbsup-portable/usr/** folder. Note, the **./bin** prefix ensures that the node binary just downloaded will be used, rather than any existing node package on the system.
 ```
 ./bin/node/bin/node ./bin/node/bin/npm install thumbsup --prefix=./lib/thumbsup
 ```
 
-13. There should now be a **thumbsup-portable/usr/lib/thumbsup/node_modules** folder.
+9. There should now be a **thumbsup-portable/usr/lib/thumbsup/node_modules** folder.
 
-14. Next, add the additional dependencies to the AppDir (exiftool, ffmpeg).
+10. Next, add the additional dependencies to the AppDir (exiftool, ffmpeg).
 
-15. You could compile your own exiftool binary, but it is easier to download from (https://github.com/pulsejet/exiftool-bin/releases/latest). As at 2025-11-11, version 13.30 was the latest, direct link here (https://github.com/pulsejet/exiftool-bin/releases/download/13.30/exiftool-amd64-glibc).
+11. You could compile your own exiftool binary, but it is easier to download from (https://github.com/pulsejet/exiftool-bin/releases/latest). As at 2025-11-11, version 13.30 was the latest, direct link here (https://github.com/pulsejet/exiftool-bin/releases/download/13.30/exiftool-amd64-glibc).
 
-16. Copy **exiftool-amd64-glibc** to **thumbsup-portable/usr/bin/**, no need for a containing folder. Then rename the file to **exiftool** and enable executable permissions.
+12. Copy **exiftool-amd64-glibc** to **thumbsup-portable/usr/bin/**, no need for a containing folder. Then rename the file to **exiftool** and enable executable permissions.
 
-17. Next, time to focus on ffmpeg, which is needed to process videos.
+13. Next, time to focus on ffmpeg, which is needed to process videos.
 
-18. Go to (https://johnvansickle.com/ffmpeg/), who publishes Linux binaries for ffmpeg, and download the latest **ffmpeg-release-amd64-static.tar.xz** (do not download any of the files starting with **ffmpeg-git**). As at 2025-11-11, the latest was 7.0.2 version.
+14. Go to (https://johnvansickle.com/ffmpeg/), who publishes Linux binaries for ffmpeg, and download the latest **ffmpeg-release-amd64-static.tar.xz** (do not download any of the files starting with **ffmpeg-git**). As at 2025-11-11, the latest was 7.0.2 version.
 
-19. Extract only **ffmpeg** and **ffprobe** to the **thumbsup-portable/usr/bin/** folder. And remember to delete the original .tar.xz file.
+15. Extract only **ffmpeg** and **ffprobe** to the **thumbsup-portable/usr/bin/** folder. And remember to delete the original .tar.xz file.
 
-20. Now to focus on graphicsmagick.
+16. Now to focus on graphicsmagick.
 
-21. Go to (https://sourceforge.net/projects/graphicsmagick/files/graphicsmagick/) and open the page for the latest release (at 2025-11-11 it is 1.3.46).
+17. Go to (https://sourceforge.net/projects/graphicsmagick/files/graphicsmagick/) and open the page for the latest release (at 2025-11-11 it is 1.3.46).
 
-22. Download the file named like **GraphicsMagick-1.3.46.tar.xz** file and extract it to a working folder for the next steps.
+18. Download the file named like **GraphicsMagick-1.3.46.tar.xz** file and extract it to a working folder for the next steps.
 
-23. Unfortunately, I need to make the binaries myself from the source code just downloaded. Change directory to the working folder.
+19. Unfortunately, I need to make the binaries myself from the source code just downloaded. Change directory to the working folder.
 
-24. Then run these commands. Note, I'll need to **adjust the version number** if I want to use a newer stable release.
+20. Then run these commands. Note, I'll need to **adjust the version number** if I want to use a newer stable release.
 ```
 # Create a temporary folder
 cd /tmp
@@ -120,28 +122,28 @@ make install
 cp /tmp/build-graphicsmagick/bin/gm ~/Projects/thumbsup-portable/usr/bin/
 ```
 
-25. Run this command. Note, the prefix option expects an absolute path, but the username will likely be different on your system. Double check and replace the bold with your username before running this command.
+21. Run this command. Note, the prefix option expects an absolute path, but the username will likely be different on your system. Double check and replace the bold with your username before running this command.
 
-26. Importantly, the graphicsmagick configuration relies on a library libheif for processing HEIF photos, but I encountered issues with this, so I will simply disable that functionalitty for the build, which is okay because I don't actually use HEIF photos.
+22. Importantly, the graphicsmagick configuration relies on a library libheif for processing HEIF photos, but I encountered issues with this, so I will simply disable that functionalitty for the build, which is okay because I don't actually use HEIF photos.
 
-27. Navigate to the working folder for where I extracted the graphicsmagick source and run the following:
+23. Navigate to the working folder for where I extracted the graphicsmagick source and run the following:
 
 ```
 export PKG_CONFIG_PATH=/nonexistent
 ./configure --prefix=/tmp/build-graphicsmagick --disable-shared --enable-static --without-heif
 ```
 
-28. The --disable-shared and --enable-static options will make the graphicsmagick binary more portable. And I've disabled the HEIF capabilities using the export line and adding in --with-heic=no because of an underlying issue with libheif which I did not resolve because I do not intend to process HEIC images and can live without that functionality.
+24. The --disable-shared and --enable-static options will make the graphicsmagick binary more portable. And I've disabled the HEIF capabilities using the export line and adding in --with-heic=no because of an underlying issue with libheif which I did not resolve because I do not intend to process HEIC images and can live without that functionality.
 
-29. Run the command to compile into a binary.
+25. Run the command to compile into a binary.
 ```
 make -j$(nproc)
 make install
 ```
 
-30. Then remove the folders: the graphics magic folder you were working in, 
+26. Then remove the folders: the graphics magic folder you were working in, 
 
-31. Safely delete this folder (the version number may be different):
+27. Safely delete this folder (the version number may be different):
 ```
 usr/lib/GraphicsMagick-1.3.46
 ```
@@ -163,8 +165,8 @@ sudo mv appimagetool-x86_64.AppImage /usr/local/bin/appimagetool
 - **Multi-System Testing**: I will only run this AppImage on my home PCs (CatchyOS and Linux Mint)
 
 ## Resources
-[^1]: https://github.com/AppImage/AppImageSpec/blob/master/draft.md
-[^2]: https://github.com/AppImage/docs.appimage.org/blob/master/source/packaging-guide/manual.rst
-[^3]: https://linuxconfig.org/building-a-hello-world-appimage-on-linux
+[^1]: https://github.com/AppImage/docs.appimage.org/blob/master/source/packaging-guide/manual.rst
+[^2]: https://linuxconfig.org/building-a-hello-world-appimage-on-linux
+[^3]: https://github.com/AppImage/AppImageSpec/blob/master/draft.md
 [^4]: http://www.graphicsmagick.org/INSTALL-unix.html
 [^5]: https://appimage-builder.readthedocs.io/en/latest/advanced/troubleshooting.html
