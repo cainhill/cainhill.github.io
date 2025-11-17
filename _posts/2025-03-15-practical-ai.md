@@ -1,12 +1,10 @@
 ---
 tags: [ ai, sales-data ]
+layout: post
+title: Faster sales actions using AI and reporting thresholds
 ---
 
-# Exploring how AI handles real business problems
-
-## Context
-
-A work mate and I set ourselves a simple challenge. We wanted to understand the limits of AI in a real workplace setting. We chose a very small part of a process so we could see what the tool could actually do.
+A workmate and I set ourselves a simple challenge. We wanted to understand the limits of AI in a real workplace setting. We chose a very small part of a process so we could see what the tool could actually do.
 
 Sales data felt like a strong place to begin. It updates often and shapes many decisions. It is also an area where we knew we wanted faster pathways from data to actions.
 
