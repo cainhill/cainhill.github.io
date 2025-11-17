@@ -44,10 +44,12 @@ thumbsup-portable/bin/
 thumbsup-portable/lib/
 thumbsup-portable/thumbsup-portable.png
 ```
+
 4. Next, create the **thumbsup-portable.desktop** file, with this content.
 ```
 
 ```
+
 5. Next, embed a copy of the following into the AppDir: nodejs, thumbsup, ffmpeg, and graphicsmagick. Starting with nodejs.
 
 ---
@@ -68,6 +70,7 @@ running a = x64
 4. Then extract the contents of the .tar.xz into the **thumbsup-portable/bin/** folder. This creats a folder called **node-v18.20.8-linux-x64**, containing folders such as **bin**, **include**, and others.
 
 5. Rename the **node-v18.20.8-linux-x64** folder to **node** and delete the original .tar.xz file.
+
 6. Enable execute permissions on the following files:
 ```
 thumbsup-portable/usr/bin/node/bin/node
