@@ -5,7 +5,7 @@ tags: [ appimage, linux ]
 type: technique
 ---
 
-For people wanting to generate photo galleries that can be viewed in a web browser, I wholeheartedly recommend the [thumbsup](https://github.com/thumbsup/thumbsup) tool. The following post explains how I packaged thumbsup into an AppImage so it was more portable and easier for me to run directly from my photo hard drive without installing to the various Linux PCs in my house.
+For people wanting to generate photo galleries that can be viewed in a web browser, I wholeheartedly recommend the [thumbsup](https://github.com/thumbsup/thumbsup) tool. The following post explains how I packaged thumbsup into an [AppImage](https://appimage.org/) so it was more portable and easier for me to run directly from my photo hard drive without installing to the various Linux PCs in my house.
 
 ## Context
 
@@ -28,7 +28,7 @@ This build was successfully completed using the following version numbers:
 
 **Creating the AppDir**
 
-1. Because thumbsup is a command-line tool, it is best to use the instructions for manually building an AppImage (refer to the official AppImage documentation[^1]).
+1. Because thumbsup is a command-line tool, it is best to use the instructions for manually building an AppImage (refer to the official AppImage documentation[^1] or the ).
 
 2. Create an AppDir, which is essentially a standard folder to contain everything appimgtool needs to build an AppImage binary file. I stored mine in my normal projects folder.
 ```
@@ -165,6 +165,6 @@ sudo mv appimagetool-x86_64.AppImage /usr/local/bin/appimagetool
 ## Resources
 [^1]: https://github.com/AppImage/AppImageSpec/blob/master/draft.md
 [^2]: https://github.com/AppImage/docs.appimage.org/blob/master/source/packaging-guide/manual.rst
-[^3]: http://www.graphicsmagick.org/INSTALL-unix.html
-[^4]: https://linuxconfig.org/building-a-hello-world-appimage-on-linux
+[^3]: https://linuxconfig.org/building-a-hello-world-appimage-on-linux
+[^4]: http://www.graphicsmagick.org/INSTALL-unix.html
 [^5]: https://appimage-builder.readthedocs.io/en/latest/advanced/troubleshooting.html
