@@ -5,7 +5,7 @@ tags: [ appimage, linux ]
 type: technique
 ---
 
-**For people wanting to generate photo galleries that can be viewed in a web browser**, I wholeheartedly recommend the [thumbsup](https://github.com/thumbsup/thumbsup) tool.
+For people wanting to generate photo galleries that can be viewed in a web browser, I wholeheartedly recommend the [thumbsup](https://github.com/thumbsup/thumbsup) tool.
 
 The following post explains how I packaged thumbsup into an [AppImage](https://appimage.org/) so it was more portable and easier for me to run directly from my photo hard drive without installing to the various Linux PCs in my house.
 
