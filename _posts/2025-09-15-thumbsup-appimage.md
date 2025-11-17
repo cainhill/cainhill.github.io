@@ -50,6 +50,8 @@ thumbsup-portable/thumbsup-portable.png
 ```
 5. Next, embed a copy of the following into the AppDir: nodejs, thumbsup, ffmpeg, and graphicsmagick. Starting with nodejs.
 
+---
+
 **Embedding the tool and dependencies into AppDir**
 
 1. As at 2025-11-11, the thumbsup repository hints that it depends on node v18 (you can see this version listed in this file https://github.com/thumbsup/thumbsup/blob/master/.nvmrc).
@@ -147,6 +149,8 @@ make install
 ```
 usr/lib/GraphicsMagick-1.3.46
 ```
+
+---
 
 **Using appimage tool to build the AppImage**
 
