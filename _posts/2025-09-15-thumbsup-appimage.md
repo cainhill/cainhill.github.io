@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Generating photo galleries more easily using a thumbsup AppImage
+tags: [ appimage, linux ]
 type: technique
 ---
 
