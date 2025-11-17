@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Use this checklist to cut through AI headlines
+tags: [ ai ]
 ---
 
 To focus on practical and quality parts of the AI discussion, I suggest we pay attention to demonstrated work, problem-proximity, and craft-relevance.
