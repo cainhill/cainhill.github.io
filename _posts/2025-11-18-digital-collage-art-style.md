@@ -10,4 +10,4 @@ Today, I dedicated some time to exploring the designs that really inspire me. I 
 
 This deep dive has given me a clear roadmap for learning.
 
-https://github.com/user-attachments/assets/df5b2314-323f-495d-b9f1-cd0fa99c5b6a
+![](https://github.com/user-attachments/assets/df5b2314-323f-495d-b9f1-cd0fa99c5b6a)
