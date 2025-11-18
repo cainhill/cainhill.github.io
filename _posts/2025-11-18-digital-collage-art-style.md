@@ -4,7 +4,7 @@ title: Learning about 'digital collage' art style
 tags: [ off-topic ]
 ---
 
-I've been interested in digital collage art lately. I was generally aware of the art style, but I recently stumbled onto the work of Ben Stafford on who creates collages that avoid the busyiness I usually associate with these designs.
+I've been interested in digital collage art lately. I was generally aware of the art style, but I recently stumbled onto the work of Ben Stafford who creates collages that avoid the busyiness I usually associate with these designs.
 
 Today, I dedicated some time to exploring the designs that really inspire me. I studied them, trying to break down the elements, texture overlays, precise masking, intentional use of negative space, and bold color palettes.
 
