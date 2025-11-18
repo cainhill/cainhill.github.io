@@ -121,13 +121,14 @@ cd GraphicsMagick-**1.3.46**.tar.xz
 cd /tmp
 tar xf GraphicsMagick-**1.3.46**.tar.xz
 cd GraphicsMagick-**1.3.46**
-./configure --prefix=/tmp/build-graphicsmagick --disable-shared --enable-static --without-heif
+./configure --prefix=/tmp/build-graphicsmagick --disable-shared --enable-static --without-heif --without-jasper
 make -j$(nproc)
 make install
 
 # Copy only the final gm binary to thumbsup-portable/usr/bin/
 cp /tmp/build-graphicsmagick/bin/gm ~/Projects/thumbsup-portable/usr/bin/
 ```
+
 
 21. Run this command. Note, the prefix option expects an absolute path, but the username will likely be different on your system. Double check and replace the bold with your username before running this command.
 
@@ -139,18 +140,22 @@ cp /tmp/build-graphicsmagick/bin/gm ~/Projects/thumbsup-portable/usr/bin/
 export PKG_CONFIG_PATH=/nonexistent
 ./configure --prefix=/tmp/build-graphicsmagick --disable-shared --enable-static --without-heif
 ```
+24. Note, I specified these options:
+  - **without-heif** because of an underlying issue with libheif which I did not resolve because I do not intend to process HEIC images
+  - **without-jasper** to avoid the need to bundle libjasper.so.7 which is used by gm to process JPEG-2000
+  - **disable-shared** and **enable-static** make the graphicsmagick binary more portable
 
-24. The --disable-shared and --enable-static options will make the graphicsmagick binary more portable. And I've disabled the HEIF capabilities using the export line and adding in --with-heic=no because of an underlying issue with libheif which I did not resolve because I do not intend to process HEIC images and can live without that functionality.
+25. And I've disabled the HEIF capabilities using the export line.
 
-25. Run the command to compile into a binary.
+26. Run the command to compile into a binary.
 ```
 make -j$(nproc)
 make install
 ```
 
-26. Then remove the folders: the graphics magic folder you were working in, 
+27. Then remove the folders: the graphics magic folder you were working in, 
 
-27. Safely delete this folder (the version number may be different):
+28. Safely delete this folder (the version number may be different):
 ```
 usr/lib/GraphicsMagick-1.3.46
 ```
