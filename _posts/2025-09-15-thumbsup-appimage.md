@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Generating photo galleries more easily using a portable thumbsup AppImage
-tags: [ appimage, linux ]
+tags: [ off-topic ]
 type: technique
 ---
 
