@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Learning about the digital colleage art style
+title: Learning about 'digital colleage' art style
 tags: [ design ]
 ---
 
