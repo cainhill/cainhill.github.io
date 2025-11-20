@@ -1,13 +1,30 @@
 ---
 layout: post
-title: Learning about 'digital collage' art style
+title: Sensible backups for Kdenline video editing
 tags: [ off-topic ]
 ---
 
-I've been interested in digital collage art lately. I was generally aware of the art style, but I recently stumbled onto the work of Ben Stafford who creates collages that avoid the busyiness I usually associate with these designs.
+I've been learning about video editing on Linux recently, with a special focus on Kdenlive. Despite being the leading open-source vodeo editor for Linux, there are many reports of unexpected crashes.
 
-Today, I dedicated some time to exploring the designs that really inspire me. I studied them, trying to break down the elements, texture overlays, precise masking, intentional use of negative space, and bold color palettes.
+Thankfully, I'm yet to experience anything like that, bit it prompted me to make this script I can run every time I start a video editing session to save the .kdenlive file only on a repeating 10 minute cadence.
 
-This deep dive has given me a clear roadmap for learning.
+Kdenlive will save to **~/.local/share/kdenlive/backups/** by itself, but I want my backups saved to my hard drive alongside the project file for portability.
 
-![](https://github.com/user-attachments/assets/df5b2314-323f-495d-b9f1-cd0fa99c5b6a)
+```
+#!/bin/bash
+
+DEST="backups"
+
+mkdir -p "$DEST"
+
+while true; do
+    STAMP=$(date +"%Y-%m-%d_%H-%M-%S")
+
+    for f in *.kdenlive; do
+        [ -e "$f" ] || continue
+        cp "$f" "$DEST/${f%.kdenlive}_$STAMP.kdenlive"
+    done
+
+    sleep 600
+done
+```
