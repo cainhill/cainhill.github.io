@@ -14,4 +14,6 @@ Shotcut needs the default duration of pictures set **before** you import the pic
 
 Use **Alt + Left** or **Alt + Right** to move the timeline cursor to the start/end of the clip. Then use the subtitle window to mark the start/end of the subtitle.
 
+The quirk, is that the Shotcut preview will show the subtitles load one frame after the first frame of the clip you're targetting, even though the actual export aligns these perfectly fine. Essentially, ignore the subtitle misalignment in the preview video, and check thoroughly in the final export.
+
 [1]: MusicalBox, "How to change the default duration of images or other clips" - <https://forum.shotcut.org/t/how-to-change-the-default-duration-of-images-or-other-clips/24178> / <https://www.youtube.com/watch?v=PtFywMDeXFE>
