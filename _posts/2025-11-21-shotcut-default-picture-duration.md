@@ -8,4 +8,4 @@ I'm currently trying to apply a 3 second default duration across a set of pictur
 
 
 
-[1]: MusicalBox, "How to change the default duration of images or other clips" - https://forum.shotcut.org/t/how-to-change-the-default-duration-of-images-or-other-clips/24178 / https://www.youtube.com/watch?v=PtFywMDeXFE
+[1]: MusicalBox, "How to change the default duration of images or other clips" - <https://forum.shotcut.org/t/how-to-change-the-default-duration-of-images-or-other-clips/24178> / <https://www.youtube.com/watch?v=PtFywMDeXFE>
