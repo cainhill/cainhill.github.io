@@ -4,7 +4,7 @@ title: Setting default picture duration in Shotcut
 tags: [ off-topic ]
 ---
 
-I'm currently trying to apply a 3 second default duration across a set of pictures in a Shotcut timeline, and there is some technique required[^1]. 
+I'm currently trying to apply a 3 second default duration across a set of pictures in a Shotcut timeline, and there is some technique required.[^1]
 
 
 
