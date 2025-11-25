@@ -1,19 +1,51 @@
 ---
 layout: post
-title: Shotcut quirks
+title: Custom video thumbnails in Thumbsup
 tags: [ off-topic ]
 ---
 
-## Default picture direction
+I've been using Thumbsup gallery maker to share our family photos and videos on our local network. It's a great tool for creating static galleries, but I recently ran into a limitation that needed some creative problem-solving.
 
-I'm currently trying to apply a 3 second default duration across a set of pictures in a Shotcut timeline, and there is some technique required.[^1]
+## Custom thumbnails
 
-Shotcut needs the default duration of pictures set **before** you import the pictures into the Playlist. If you are trying to set the duration of the clips in the Timeline, you've gone too far. The default duration is only applied at the point that you "Add Files" to Playlist or Bin(s).
+While Thumbsup works wonderfully for photos, I wanted more control over how my videos appeared in the gallery. Specifically, I wanted to set custom thumbnails for videos rather than relying on automatically generated ones.
 
-## Subtitle timing
+Unfortunately, Thumbsup supports two options for video thumbnails: capturing a still from a specific frame position or grabbing one from the middle of the video. However, I wanted to set a specific thumbnail.
 
-Use **Alt + Left** or **Alt + Right** to move the timeline cursor to the start/end of the clip. Then use the subtitle window to mark the start/end of the subtitle.
+## The approach
 
-The quirk, is that the Shotcut preview will show the subtitles load one frame after the first frame of the clip you're targetting, even though the actual export aligns these perfectly fine. Essentially, ignore the subtitle misalignment in the preview video, and check thoroughly in the final export.
+After some experimentation, I made a shell script that uses Thumbsup's existing functionality in a creative way. Here's how it works:
 
-[1]: MusicalBox, "How to change the default duration of images or other clips" - <https://forum.shotcut.org/t/how-to-change-the-default-duration-of-images-or-other-clips/24178> / <https://www.youtube.com/watch?v=PtFywMDeXFE>
+**Prepare custom thumbnails**
+
+First, I create custom thumbnail images as JPG files and save them in the same location as their corresponding video files.
+```
+IMG_365.jpg
+IMG_365.mp4
+```
+
+**Script marks the thumbnails**
+
+Next, I used a shell script to add a suffix **.tn.** to every JPG with a matching MP4.
+
+**Generate thumbnails for custom images**
+
+I run Thumbsup configured to process only these `.tn.jpg` files, outputting the results to a temporary location. This creates properly formatted thumbnails from my custom images.
+
+**Generate the main gallery**
+
+Next, I run Thumbsup again, this time excluding the `.tn.jpg` files so they don't appear as separate items in the gallery. This generates the full gallery with all photos and videos.
+
+**Rename the temporary files**
+
+Before copying the files over, I process all the thumbnail files in the temporary location to remove the `.tn.` portion from their filenames. This ensures they match the naming convention that Thumbsup expects for video thumbnails.
+
+**Merge the results**
+
+Finally, I copy the renamed custom thumbnail files from the temporary location into the newly generated gallery folder, overwriting the auto-generated video thumbnails.
+
+## Result
+
+The end result is exactly what I wanted, a beautiful family photo gallery where videos display with the custom thumbnails I've chosen.
+
+While this workaround requires a bit of scripting knowledge, it's a practical solution that extends Thumbsup's capabilities without needing to modify the tool itself. If you're facing a similar need, this approach might be just what you need.
