@@ -1,51 +1,45 @@
 ---
 layout: post
-title: Custom video thumbnails in Thumbsup
+title: Custom album covers in Thumbsup
 tags: [ off-topic ]
 ---
 
-I've been using Thumbsup gallery maker to share our family photos and videos on our local network. It's a great tool for creating static galleries, but I recently ran into a limitation that needed some creative problem-solving.
+In my previous post, I shared how I solved the custom video thumbnail challenge in Thumbsup gallery maker. Today, I'm tackling another customisation need, album covers.
 
-## Custom thumbnails
+## The challenge
 
-While Thumbsup works wonderfully for photos, I wanted more control over how my videos appeared in the gallery. Specifically, I wanted to set custom thumbnails for videos rather than relying on automatically generated ones.
+Thumbsup uses a concept of virtual albums to organise and generate its gallery structure. It's a powerful feature that makes browsing large photo collections much more manageable. However, my particular use case required something beyond the default behaviour, custom album covers.
 
-Unfortunately, Thumbsup supports two options for video thumbnails: capturing a still from a specific frame position or grabbing one from the middle of the video. However, I wanted to set a specific thumbnail.
+By default, Thumbsup automatically selects the first photo in each album as its cover image. This is a sensible default that works well for most scenarios. However, for my family photo gallery, I wanted the ability to handpick cover images that best represent each album's content, which is a feature that isn't currently supported out of the box.
 
-## The approach
+## Solution
 
-After some experimentation, I made a shell script that uses Thumbsup's existing functionality in a creative way. Here's how it works:
+Rather than accepting the default behaviour, I developed a workaround that gives me complete control over album covers whilst still leveraging Thumbsup's excellent gallery generation. Here's my approach:
 
-**Prepare custom thumbnails**
+**Generate the gallery**
 
-First, I create custom thumbnail images as JPG files and save them in the same location as their corresponding video files.
-```
-IMG_365.jpg
-IMG_365.mp4
-```
+First, I run Thumbsup normally to generate the complete gallery with all its default settings.
 
-**Script marks the thumbnails**
+**Identify album filenames**
 
-Next, I used a shell script to add a suffix **.tn.** to every JPG with a matching MP4.
+In the generated output, I browse to find the albums I want to customise. Each album has a corresponding HTML file, such as `Favourites.html`, `Summer_Vacation.html`. I make note of these filenames.
 
-**Generate thumbnails for custom images**
+**Create custom cover images**
 
-I run Thumbsup configured to process only these `.tn.jpg` files, outputting the results to a temporary location. This creates properly formatted thumbnails from my custom images.
+For each album I want to customise, I create a corresponding cover image in a `src/custom-covers/` directory. The key is matching the filename exactly. For example, if my album file is `Favourites.html`, I create `src/custom-covers/Favourites.jpg`.
 
-**Generate the main gallery**
+**Copy custom covers to output**
 
-Next, I run Thumbsup again, this time excluding the `.tn.jpg` files so they don't appear as separate items in the gallery. This generates the full gallery with all photos and videos.
+I update my gallery build script to automatically copy all files from `src/custom-covers/` to `website/custom-cover/` in the generated output directory. This ensures my custom cover images are available in the final gallery.
 
-**Rename the temporary files**
+**Add JavaScrcript to swap covers**
 
-Before copying the files over, I process all the thumbnail files in the temporary location to remove the `.tn.` portion from their filenames. This ensures they match the naming convention that Thumbsup expects for video thumbnails.
-
-**Merge the results**
-
-Finally, I copy the renamed custom thumbnail files from the temporary location into the newly generated gallery folder, overwriting the auto-generated video thumbnails.
+Finally, I add some JavaScript code to the gallery that runs when albums are displayed. The script attempts to replace each album's default cover image with a custom one if it exists. It checks whether a matching custom cover is available and uses it, otherwise, it falls back to Thumbsup's default album cover selection.
 
 ## Result
 
-The end result is exactly what I wanted, a beautiful family photo gallery where videos display with the custom thumbnails I've chosen.
+Now my gallery displays albums with carefully chosen cover images that truly represent what's inside. Whether it's the perfect candid shot from a holiday or a beautifully composed family portrait, each album now makes the right first impression.
 
-While this workaround requires a bit of scripting knowledge, it's a practical solution that extends Thumbsup's capabilities without needing to modify the tool itself. If you're facing a similar need, this approach might be just what you need.
+This approach maintains compatibility with Thumbsup's updates whilst giving me the customisation I need. The JavaScript enhancement gracefully handles both customised and non-customised albums, so I can selectively apply custom covers only where they matter most.
+
+Between custom video thumbnails and custom album covers, my family photo gallery now feels truly personalised whilst still benefiting from Thumbsup's excellent static gallery generation capabilities.
