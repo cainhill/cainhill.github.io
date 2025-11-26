@@ -10,11 +10,28 @@ In my previous post, I shared how I solved the custom video thumbnail challenge 
 
 Thumbsup uses a concept of virtual albums to organise and generate its gallery structure. It's a powerful feature that makes browsing large photo collections much more manageable. However, my particular use case required something beyond the default behaviour, custom album covers.
 
-By default, Thumbsup automatically selects the first photo in each album as its cover image. This is a sensible default that works well for most scenarios. However, for my family photo gallery, I wanted the ability to handpick cover images that best represent each album's content, which is a feature that isn't currently supported out of the box.
+By default, Thumbsup automatically selects the first photo in each album as its cover image. This is a sensible default that works well for most scenarios. However, for my family photo gallery, I wanted the ability to handpick cover images that best represent each album's content, which is a feature that isn't currently supported.
 
 ## Solution
 
-Rather than accepting the default behaviour, I developed a workaround that gives me complete control over album covers whilst still leveraging Thumbsup's excellent gallery generation. Here's my approach:
+Rather than using the default behaviour, I developed this approach so I could control the album covers whilst still leveraging Thumbsup's excellent gallery generation. Here's my approach:
+
+**My folder structure**
+```
+.
+├── memories/
+│   └── 2025-04 Japan/
+│       ├── PXL_20250525_032613400.jpg
+│       └── PXL_20250525_032614456.jpg
+└── .thumbsup/
+    ├── src/
+    │   ├── custom-theme/
+    │   │   └── album.hbs <-- Updated with JavaScript
+    │   └── custom-covers/
+    │       └── 2025-04-Japan.jpg <-- Named to match the generated HTML page
+    └── website/
+        └── 2025-04-Japan.html
+```
 
 **Generate the gallery**
 
@@ -32,9 +49,20 @@ For each album I want to customise, I create a corresponding cover image in a `s
 
 I update my gallery build script to automatically copy all files from `src/custom-covers/` to `website/custom-cover/` in the generated output directory. This ensures my custom cover images are available in the final gallery.
 
-**Add JavaScrcript to swap covers**
+**Add JavaScript to swap covers**
 
-Finally, I add some JavaScript code to the gallery that runs when albums are displayed. The script attempts to replace each album's default cover image with a custom one if it exists. It checks whether a matching custom cover is available and uses it, otherwise, it falls back to Thumbsup's default album cover selection.
+In my own setup, I'm using a custom theme based on "flow" by Thumbsup. This means I can add the following code to the `custom-theme/album.hbs` file, which attempts to replace each album's default cover image with a custom one, but only if a custom cover image exists in the `media/custom-covers/` directory with the same base name as the base name of the linked album HTML file.
+
+```js
+document.querySelectorAll('a[href$=".html"] img').forEach(img => {
+  const a = img.closest("a");
+  const name = a.href.split('/').pop().replace('.html', '');
+  const url = `media/custom-covers/${name}.jpg`;
+  const t = new Image();
+  t.onload = () => img.src = url;
+  t.src = url;
+});
+```
 
 ## Result
 
