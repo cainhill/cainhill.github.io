@@ -70,7 +70,10 @@ document.querySelectorAll('a[href$=".html"] img').forEach(img => {
   const name = a.href.split('/').pop().replace('.html', '');
   const url = `media/custom-covers/${name}.jpg`;
   const t = new Image();
-  t.onload = () => img.src = url;
+  t.onload = () => {
+    img.src = url;
+    img.setAttribute('width', '533');
+  };
   t.src = url;
 });
 ```
