@@ -14,9 +14,7 @@ By default, Thumbsup automatically selects the first photo in each album as its 
 
 ## Approach
 
-This folder structure shows the approach I used to apply custom album covers whilst still benefiting from Thumbsup's excellent gallery generation.
-
-The steps beyond that explain the approach in more detail.
+This folder structure and steps below describe the approach I used to apply custom album covers whilst still benefiting from Thumbsup's excellent gallery generation.
 
 **My folder structure**
 ```
