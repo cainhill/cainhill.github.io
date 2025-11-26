@@ -79,8 +79,8 @@ document.querySelectorAll('a[href$=".html"] img').forEach(img => {
 
 ## Result
 
-Now my gallery displays albums with carefully chosen cover images that truly represent what's inside. Whether it's the perfect candid shot from a holiday or a beautifully composed family portrait, each album now makes the right first impression.
+Now my gallery displays albums with carefully chosen cover images that truly represent what's inside.
 
-This approach maintains compatibility with Thumbsup's updates whilst giving me the customisation I need. The JavaScript enhancement gracefully handles both customised and non-customised albums, so I can selectively apply custom covers only where they matter most.
+This approach remains lightweight, while giving me the customisation I need. The JavaScript enhancement gracefully handles both customised and non-customised albums, so I can selectively apply custom covers only where they matter most.
 
 Between custom video thumbnails and custom album covers, my family photo gallery now feels truly personalised whilst still benefiting from Thumbsup's excellent static gallery generation capabilities.
