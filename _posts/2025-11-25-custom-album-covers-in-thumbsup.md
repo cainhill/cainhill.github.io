@@ -26,34 +26,35 @@ The steps beyond that explain the approach in more detail.
 │       ├── PXL_20250525_032613400.jpg
 │       └── PXL_20250525_032614456.jpg
 └── .thumbsup/
+    ├── thumbsup-run.sh <-- (Step 3) Update main script to copy src/custom-covers/ to website/custom-covers/ every build
     ├── src/
     │   ├── custom-theme/
-    │   │   └── album.hbs <-- Updated with JavaScript
+    │   │   └── album.hbs <-- (Step 4) Update JavaScript so gallery checks website/custom-covers/ for matching cover
     │   └── custom-covers/
-    │       └── 2025-04-Japan.jpg <-- Named to match the generated HTML page
+    │       └── 2025-04-Japan.jpg <-- (Step 2) Create cover with name that matches the generated HTML page name
     └── website/
-        └── 2025-04-Japan.html
+        └── 2025-04-Japan.html <-- (Step 1) Run thumbsup as normal to output album pages under 'website' directory
 ```
 
-**Step 1: Generating the gallery**
+**Step 1: Run thumbsup as normal to output album pages under 'website' directory**
 
-First, I ran the Thumbsup normally to generate the complete gallery. My setup builds scans the `memories/` directory and builds into `.thumbsup/website/` directory.
+First, I run the Thumbsup normally to generate the complete gallery. My setup scans the `memories/` directory and builds into `.thumbsup/website/` directory. In the example, `2025-04-Japan.html` is generated.
 
-**Identify album filenames**
+**Step 2: Create cover with name that matches the generated HTML page name**
 
-In the generated output, I browse to find the albums I want to customise. Each album has a corresponding HTML file, such as `Favourites.html`, `Summer_Vacation.html`. I make note of these filenames.
+For each album I want to customise, I create a corresponding cover image in a `src/custom-covers/` directory. The key is matching the filename exactly. For example, if my album file is `2025-04-Japan.html`, I create `src/custom-covers/2025-04-Japan.jpg`.
 
-**Create custom cover images**
+**Step 3: Update main script to copy src/custom-covers/ to website/custom-covers/ every build**
 
-For each album I want to customise, I create a corresponding cover image in a `src/custom-covers/` directory. The key is matching the filename exactly. For example, if my album file is `Favourites.html`, I create `src/custom-covers/Favourites.jpg`.
+Next, I need to make sure the custom covers are available for the HTML pages output to the `website` directory. So I update my gallery build script to automatically copy all files from `src/custom-covers/` to `website/custom-cover/` in the generated output directory.
+```sh
+# Copy src/custom-covers/ over website/media/custom-covers folder
+cp -r src/custom-covers website/media
+```
 
-**Copy custom covers to output**
+**(Step 4) Update JavaScript so gallery checks website/custom-covers/ for matching cover**
 
-I update my gallery build script to automatically copy all files from `src/custom-covers/` to `website/custom-cover/` in the generated output directory. This ensures my custom cover images are available in the final gallery.
-
-**Add JavaScript to swap covers**
-
-In my own setup, I'm using a custom theme based on "flow" by Thumbsup. This means I can add the following code to the `custom-theme/album.hbs` file, which attempts to replace each album's default cover image with a custom one, but only if a custom cover image exists in the `media/custom-covers/` directory with the same base name as the base name of the linked album HTML file.
+In my own setup, I'm using a custom theme based on "flow" by Thumbsup. This means I can add the following code to the `src/custom-theme/album.hbs` file, which attempts to replace each album's default cover image with a custom one, but only if a custom cover image exists in the `website/media/custom-covers/` directory with the same base name as the base name of the linked album HTML file.
 
 ```js
 document.querySelectorAll('a[href$=".html"] img').forEach(img => {
