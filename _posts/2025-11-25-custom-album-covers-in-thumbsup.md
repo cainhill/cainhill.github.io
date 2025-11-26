@@ -42,7 +42,7 @@ First, I run the Thumbsup normally to generate the complete gallery. My setup sc
 
 For each album I want to customise, I create a corresponding cover image in a `src/custom-covers/` directory. The key is matching the filename exactly. For example, if my album file is `2025-04-Japan.html`, I create `src/custom-covers/2025-04-Japan.jpg`.
 
-**Step 3: Update main script to copy src/custom-covers/ to website/custom-covers/ every build**
+**Step 3: Update main script to copy 'src/custom-covers/' to 'website/custom-covers/' every build**
 
 Next, I need to make sure the custom covers are available for the HTML pages output to the `website` directory. So I update my gallery build script to automatically copy all files from `src/custom-covers/` to `website/custom-cover/` in the generated output directory.
 ```sh
