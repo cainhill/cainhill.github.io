@@ -16,6 +16,8 @@ By default, Thumbsup automatically selects the first photo in each album as its 
 
 This folder structure and steps below describe the approach I used to apply custom album covers whilst still benefiting from Thumbsup's excellent gallery generation.
 
+---
+
 **My folder structure**
 ```
 .
@@ -34,13 +36,19 @@ This folder structure and steps below describe the approach I used to apply cust
         └── 2025-04-Japan.html <-- (Step 1) Run thumbsup as normal to output album pages under 'website' directory
 ```
 
+---
+
 **Step 1: Run thumbsup as normal to output album pages under 'website' directory**
 
 First, I run the Thumbsup normally to generate the complete gallery. My setup scans the `memories/` directory and builds into `.thumbsup/website/` directory. In the example, `2025-04-Japan.html` is generated.
 
+---
+
 **Step 2: Create cover with name that matches the generated HTML page name**
 
 For each album I want to customise, I create a corresponding cover image in a `src/custom-covers/` directory. The key is matching the filename exactly. For example, if my album file is `2025-04-Japan.html`, I create `src/custom-covers/2025-04-Japan.jpg`.
+
+---
 
 **Step 3: Update main script to copy 'src/custom-covers/' to 'website/custom-covers/' every build**
 
@@ -50,7 +58,9 @@ Next, I need to make sure the custom covers are available for the HTML pages out
 cp -r src/custom-covers website/media
 ```
 
-**(Step 4) Update JavaScript so gallery checks website/custom-covers/ for matching cover**
+---
+
+**Step 4: Update JavaScript so gallery checks website/custom-covers/ for matching cover**
 
 In my own setup, I'm using a custom theme based on "flow" by Thumbsup. This means I can add the following code to the `src/custom-theme/album.hbs` file, which attempts to replace each album's default cover image with a custom one, but only if a custom cover image exists in the `website/media/custom-covers/` directory with the same base name as the base name of the linked album HTML file.
 
@@ -64,6 +74,8 @@ document.querySelectorAll('a[href$=".html"] img').forEach(img => {
   t.src = url;
 });
 ```
+
+---
 
 ## Result
 
