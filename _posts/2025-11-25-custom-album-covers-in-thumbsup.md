@@ -6,15 +6,17 @@ tags: [ off-topic ]
 
 In my previous post, I shared how I solved the custom video thumbnail challenge in Thumbsup gallery maker. Today, I'm tackling another customisation need, album covers.
 
-## The challenge
+## Challenge
 
 Thumbsup uses a concept of virtual albums to organise and generate its gallery structure. It's a powerful feature that makes browsing large photo collections much more manageable. However, my particular use case required something beyond the default behaviour, custom album covers.
 
-By default, Thumbsup automatically selects the first photo in each album as its cover image. This is a sensible default that works well for most scenarios. However, for my family photo gallery, I wanted the ability to handpick cover images that best represent each album's content, which is a feature that isn't currently supported.
+By default, Thumbsup automatically selects the first photo in each album as its cover image. This is a sensible default that works well for most scenarios. However, for my family photo gallery, I wanted to handpick cover images that best represent each album's content, which is a feature that isn't currently supported.
 
-## Solution
+## Approach
 
-Rather than using the default behaviour, I developed this approach so I could control the album covers whilst still leveraging Thumbsup's excellent gallery generation. Here's my approach:
+This folder structure shows the approach I used to apply custom album covers whilst still leveraging Thumbsup's excellent gallery generation.
+
+The steps beyond that explain the approach in more detail.
 
 **My folder structure**
 ```
@@ -33,9 +35,9 @@ Rather than using the default behaviour, I developed this approach so I could co
         └── 2025-04-Japan.html
 ```
 
-**Generate the gallery**
+**Step 1: Generating the gallery**
 
-First, I run Thumbsup normally to generate the complete gallery with all its default settings.
+First, I ran the Thumbsup normally to generate the complete gallery. My setup builds scans the `memories/` directory and builds into `.thumbsup/website/` directory.
 
 **Identify album filenames**
 
