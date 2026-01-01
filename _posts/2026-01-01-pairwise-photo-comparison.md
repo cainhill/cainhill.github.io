@@ -3,6 +3,7 @@ layout: post
 title: Generating photo galleries more easily using a portable thumbsup AppImage
 tags: [ off-topic ]
 type: technique
+published: false
 ---
 
 For people wanting to generate photo galleries that can be viewed in a web browser, I wholeheartedly recommend the [thumbsup](https://github.com/thumbsup/thumbsup) tool.
