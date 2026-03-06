@@ -4,7 +4,7 @@ title: Setting
 tags: [ off-topic ]
 ---
 
-My next step on my home photos journey has been to set up our best photos to show on our family TV using xscreensaver and immich-kiosk.
+My next step on my home photos journey has been to set up our best photos to show on our family TV using xscreensaver, immich-kiosk, and immich.
 
 I followed these steps:
 
