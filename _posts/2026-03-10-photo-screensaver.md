@@ -13,7 +13,8 @@ I followed these steps:
 3. Install xscreensaver on the TV computer
 ```sudo apt install xscreensaver```
 4. Create a wrapper script at `~/immich-screensaver.sh`
-```#!/bin/bash
+```
+#!/bin/bash
 chromium-browser --kiosk --noerrdialogs --disable-infobars http://192.168.0.102:3900
 ```
 5. Give execute permission
