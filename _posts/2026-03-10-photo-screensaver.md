@@ -9,7 +9,7 @@ My next step on my home photos journey has been to set up our best photos to sho
 I followed these steps:
 
 1. [Install immich-kiosk on home server](https://docs.immichkiosk.app/installation/)
-2. Point the immich-kiosk to our favourited photos in our immich library
+2. Update the [home server environment variable](https://docs.immichkiosk.app/installation/#when-using-environment-variables) to point immich-kiosk to our favourited photos in our immich library
 3. Install xscreensaver on the TV computer
 ```sudo apt install xscreensaver```
 4. Create a wrapper script at `~/immich-screensaver.sh`
