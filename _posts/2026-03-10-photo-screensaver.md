@@ -16,6 +16,8 @@ I followed these steps:
 ```#!/bin/bash
 chromium-browser --kiosk --noerrdialogs --disable-infobars http://192.168.0.102:3900```
 5. Give execute permission
-```chmod +x ~/immich-screensaver.sh```
+```
+chmod +x ~/immich-screensaver.sh
+```
 6. Edit `~/.xscreensaver` to add this script as a custom screensaver program
 7. Enable xscreensaver to run at startup via using autostart settings on Linux Mint
