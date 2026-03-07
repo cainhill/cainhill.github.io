@@ -12,14 +12,14 @@ I followed these steps:
 2. Update the [home server environment variable](https://docs.immichkiosk.app/installation/#when-using-environment-variables) to point immich-kiosk to our favourited photos in our immich library
 3. Install xscreensaver on the TV computer
 ```sudo apt install xscreensaver```
-4. Create a wrapper script at `~/immich-screensaver.sh`
+4. Create a wrapper script at `~/.projects/immich-screensaver/immich-screensaver.sh`
 ```
 #!/bin/bash
 chromium-browser --kiosk --noerrdialogs --disable-infobars http://192.168.0.102:3900
 ```
 5. Give execute permission
 ```
-chmod +x ~/immich-screensaver.sh
+chmod +x ~/.project/immich-screensaver/immich-screensaver.sh
 ```
 6. Edit `~/.xscreensaver` to add this script as a custom screensaver program
 7. Enable xscreensaver to run at startup via using autostart settings on Linux Mint
