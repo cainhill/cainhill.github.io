@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Setting 
+title: Setting photo screensaver
 tags: [ off-topic ]
 ---
 
