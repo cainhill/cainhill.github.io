@@ -15,7 +15,7 @@ I followed these steps:
 4. Create a wrapper script at `~/.projects/immich-screensaver/immich-screensaver.sh`
 ```
 #!/bin/bash
-chromium-browser --kiosk --noerrdialogs --disable-infobars http://192.168.0.102:3900
+chromium --kiosk --noerrdialogs --disable-infobars http://192.168.0.102:3900
 ```
 5. Give execute permission
 ```
