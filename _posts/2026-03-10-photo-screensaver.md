@@ -1,5 +1,5 @@
 ---
-tags: [ off-topic ]
+tags: [off-topic]
 layout: post
 title: Setting photo screensaver
 ---
