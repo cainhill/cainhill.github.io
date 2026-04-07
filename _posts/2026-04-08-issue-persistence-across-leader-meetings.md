@@ -1,6 +1,6 @@
 ---
 tags: [lessons-learned]
-published: false
+published: true
 title: Reducing leader meeting scope to sharpen focus
 ---
 
