@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Better device charging with a dedicated charging drawer
-tags: [ off-topic ]
+tags: [off-topic]
 ---
 
 {% include embed/youtube.html id='XCOilwPy23o' %}
