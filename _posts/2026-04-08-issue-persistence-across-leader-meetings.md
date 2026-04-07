@@ -4,7 +4,9 @@ published: false
 title: Reducing leader meeting scope to sharpen focus
 ---
 
-The most precious resources for leaders are often 'time' and 'focus'. As a Chief of Staff for a leader with responsibility for 900+ staff, one of my goals is to create as much time and focus as possible across multiple months for leaders to achieve their goals. Beyond the day-to-day actions assignment and tracking, the leader I support was seeking a more formal way to investigate and resolve issues together and the solution has been to introduce an issues resolution process tailored to this leader group's culture. Introducing:
+The most precious resources for leaders are often 'time' and 'focus'. As a Chief of Staff for a leader with responsibility for 900+ staff, one of my goals is to create as much time and focus as possible across multiple months for leaders to achieve their goals. 
+
+Beyond the day-to-day actions assignment and tracking, the leader I support was seeking a more formal way to investigate and resolve issues together and the solution has been to introduce an issues resolution process tailored to this leader group's culture. Introducing:
 
 1. **Issue Scope:** To keep this process strategic, and buffered from operational noise, we specified that we only want to discuss issues that met one of the following conditions:
 
