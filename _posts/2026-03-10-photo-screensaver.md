@@ -2,6 +2,7 @@
 layout: post
 title: Setting photo screensaver
 tags: [ off-topic ]
+published: true
 ---
 
 My next step on my home photos journey has been to set up our best photos to show on our family TV using xautolock, immich-kiosk, and immich.
