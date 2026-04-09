@@ -1,7 +1,7 @@
 ---
-tags: [lessons-learned]
+tags: [lessons-learned, chief-of-staff-audience, company-leader-audience]
 layout: post
-title: Reducing leader meeting scope to sharpen focus
+title: Create strategic focus in leadership meetings by reducing scope
 ---
 
 The most precious resources for leaders are often 'time' and 'focus'. As a Chief of Staff for a leader with responsibility for 900+ staff, one of my goals is to create as much time and focus as possible across multiple months for leaders to achieve their goals. 
