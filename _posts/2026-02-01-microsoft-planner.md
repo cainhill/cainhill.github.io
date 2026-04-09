@@ -15,3 +15,5 @@ You may expect that all comments made on tasks you make should send you a notifi
 **Tip 3. Name the task for a single task owner**
 When you write a new task, prefix the task name with the name of only one task owner. Since you'll be using the Owner field as a way to follow this task (Tip #1), it is important to name a clear owner in the task name field instead.
 
+**Tip 4. Due Dates**
+Unless a Due Date is specified in the flow of work, set all blank Due Dates to the sooner of 2 weeks from now, or the day before the next related meeting.
