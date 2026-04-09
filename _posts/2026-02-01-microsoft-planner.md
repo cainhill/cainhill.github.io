@@ -1,7 +1,7 @@
 ---
 tags: [lessons-learned,team-leader-audience]
 layout: post
-title: Reduce coordination cost with theae Microsoft Planner tips
+title: Reduce coordination cost with these Microsoft Planner tips
 image:
   path: https://i.ibb.co/93ycqt32/1.png
 ---
