@@ -1,21 +1,13 @@
 ---
 tags: [lessons-learned]
 layout: post
-title: Reducing leader meeting scope to sharpen focus
+title: Best collaboration habits for Microsoft Planner teamwork
 ---
 
-The most precious resources for leaders are often 'time' and 'focus'. As a Chief of Staff for a leader with responsibility for 900+ staff, one of my goals is to create as much time and focus as possible across multiple months for leaders to achieve their goals. 
+There is always a gap between how you **can** use a technology and how you **should** use technology to get the most out of it. These are some essential tips I've tested for getting the most out of Microsoft Planner when using it in a work team.
 
-Beyond the day-to-day actions assignment and tracking, the leader I support was seeking a more formal way to investigate and resolve issues together and the solution has been to introduce an issues resolution process tailored to this leader group's culture. Introducing:
+**Tip 1. Use the Owner field for visibility**
+When you assign a task to someone, put them and yourself in the Owner field so you receive updates about the card. This reduces your need to follow up and alerts you if the task owner marks the task complete.
 
-1. **Issue Scope:** To keep this process strategic, and buffered from operational noise, we specified that we only want to discuss issues that met one of the following conditions:
-
-    1. Cannot be resolved without decision or endorsement from the leadership team
-
-    2. Requires multiple sub-organisations to collaborate on a shared solution
-
-    3. Is not already owned by an existing leader who stewards a strategic area
-
-3. **Issues Slide Template:** Where a single issue owner is identified who populates a slide template with an issue definition, options for resolution, and current status as the issue progresses through (needs definition, ready for discussion, decision made, ready for communication, resolved).
-
-4. **Restricted Scope:** Whereas the temptation might be to unpack all issues, it was most effective when we introduced the concept of 'the big three issues'. A list of issues decided by the leader to get focus in the given month.
+**Tip 2. Name the task for a single task owner**
+When you write a new task, prefix the task name with the name of only one task owner. Since you'll be using the Owner field as a way to follow this task (Tip #1), it is important to name a clear owner in the task name field instead.
