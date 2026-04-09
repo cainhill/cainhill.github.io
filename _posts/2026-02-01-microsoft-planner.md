@@ -12,7 +12,7 @@ When you assign a task to someone, put them and yourself in the Owner field so y
 
 **Tip 2. Leave a Created comment on all new tasks**
 
-You may expect that all comments made on tasks you make should send you a notification so you remain involved in the conversation about the task, but unfortunately some corporates disable this behaviour to reduce spamm So how can you ensure you remain informed when others leave a common on a card you have interest in? Leave a comment on the task card as soon as you make it, and all subsequent comments will also be notified to you so you are up to date. I personal comment one word "Created" on every task card I make for this purpose.
+You may expect that all comments made on tasks you make should send you a notification so you remain involved in the conversation about the task, but unfortunately some corporates disable this behaviour to reduce spam. So how can you ensure you remain informed when others leave a common on a card you have interest in? Leave a comment on the task card as soon as you make it, and all subsequent comments will also be notified to you so you are up to date. I personal comment one word "Created" on every task card I make for this purpose.
 
 **Tip 3. Name the task for a single task owner**
 
