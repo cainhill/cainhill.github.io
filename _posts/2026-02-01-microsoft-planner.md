@@ -3,7 +3,7 @@ tags: [lessons-learned]
 layout: post
 title: Best collaboration habits for Microsoft Planner teamwork
 image:
-  path: https://private-user-images.githubusercontent.com/2561326/576072273-8f5907db-ab32-4fdd-8d5a-c3aff4f8efff.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NzU3NTExNzIsIm5iZiI6MTc3NTc1MDg3MiwicGF0aCI6Ii8yNTYxMzI2LzU3NjA3MjI3My04ZjU5MDdkYi1hYjMyLTRmZGQtOGQ1YS1jM2FmZjRmOGVmZmYucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI2MDQwOSUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNjA0MDlUMTYwNzUyWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9Y2FmOTJlZDA1MDgzNWJiZDkyYjQzZWJmZmQxMWYzMTllY2FkZTE3MTY4N2RmODM4MDY3NmVhM2UwODRhZWE5ZSZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.cwEJX7RSiGae-0-i2uEp5XN7T88qTrSmY18exicobt8
+  path: https://i.ibb.co/93ycqt32/1.png
 ---
 
 There is always a gap between how you **can** use a technology and how you **should** use technology to get the most out of it. These are some essential tips I've tested for getting the most out of Microsoft Planner when using it in a work team.
