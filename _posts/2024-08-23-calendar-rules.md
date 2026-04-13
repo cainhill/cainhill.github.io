@@ -1,4 +1,10 @@
-Get the most from your Google Calendar with these techniques…
+---
+tags: [off-topic,everyone-audience]
+layout: post
+title: Better calendar management using these practical conventions
+---
+
+Get the most from your Google Calendar with these conventions…
 
 **1. Booking Tags**
 
