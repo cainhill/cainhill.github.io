@@ -1,3 +1,5 @@
+Get the most from your Google Calendar with these techniques…
+
 1. Booking Tags
 
    To manage booking/payment info, add tags to the end of your event names (#tobook #booked #topay #paid #walkin) to indicate their status.
