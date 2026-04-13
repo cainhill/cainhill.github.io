@@ -14,4 +14,4 @@ This is a running list of home automations I've configured in our house that are
     
 -   🌓 To help us head to bed 11pm Mon-Thurs nights: When it is 11pm on a Mon-Thurs night, automatically turn off the TV 5 times at decreasing intervals
     
-💤 To help us pack up for the night: When we say "Hey Alexa, time for bed", automatically turn off the TV and all lamp lights
+- 💤 To help us pack up for the night: When we say "Hey Alexa, time for bed", automatically turn off the TV and all lamp lights
