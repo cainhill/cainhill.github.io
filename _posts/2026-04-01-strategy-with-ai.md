@@ -24,4 +24,4 @@ I don't exactly want to ban PowerPoint, but I kind of do. If it is currently bes
 
 One of the most valuable things an external facilitator brings is structured, agenda-free challenge. An AI model can play a version of that role in real time, returning counterarguments, surfacing historical analogies, and naming assumption gaps as strategic options are discussed. It adds a dimension of rigour to the conversation that the team itself is often too close to provide.
 
-The common theme is that AI could actually be useful.in these cases. I don't want to bolt AI on for the sake of it, but these small experiments are where I see the most upside in the near-term.
+The common theme is that AI could actually be useful in these cases. I don't want to bolt AI on for the sake of it, but these small experiments are where I see the most upside in the near-term.
