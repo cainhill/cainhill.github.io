@@ -1,10 +1,12 @@
 ---
 tags: [strategy,company-leader-audience]
 layout: post
-title: Three specific ways I'm incorporating AI into the annual strategy process
+title: Three specific ways I'm using AI when we make our strategy this year
 ---
 
 ***By a Chief of Staff and Program Manager with six years in the strategy room***
+
+To be clear, I am not writing about how to make an AI strategy, I am thinking about how the process of making a strategy can be supported by AI for better quality action planning and for a different experience for the leaders who assemble that strategy.
 
 As I'm writing this, it is strategy season. It is an energetic and often chaotic time. After six years of being in the room where we build strategies, this year I have challenged myself to incorporate AI tooling to improve that experience for leaders and staff.
 
