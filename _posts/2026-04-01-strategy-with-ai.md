@@ -2,6 +2,7 @@
 tags: [strategy,company-leader-audience]
 layout: post
 title: Three specific ways I'm incorporating AI into annual strategy process
+---
 
 ***By a Chief of Staff and Program Manager with six years in the strategy room***
 
