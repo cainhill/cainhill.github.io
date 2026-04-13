@@ -6,7 +6,7 @@ title: Three specific ways I'm incorporating AI into annual strategy process
 
 ***By a Chief of Staff and Program Manager with six years in the strategy room***
 
-As I'm writing this, it is strategy season, before leaders share their company goals for the financial year ahead. It's an energetic and often chaotic time. After six years of being in the room where we design the process, I am challenging myself to incorporate AI tooling to improve that experience for leaders and staff.
+As I'm writing this, it is strategy season. It's an energetic and often chaotic time. After six years of being in the room where we design the process, I am challenging myself to incorporate AI tooling to improve that experience for leaders and staff.
 
 Not to replace the judgment and creativity, but to reach more substantive and data-led conclusion than what would otherwise be possible in the time we have. Do more with less etc.
 
