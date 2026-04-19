@@ -1,7 +1,7 @@
 Link | Name | Description
 -|-|-
 |TBC|Excel Hierarchy Builder|**Clearer visuals.** This is an Excel template for HR teams and business analysts to validate their hierarchical data and convert it to mindmap format. Built with Excel and VBA.
-|TBC|Rapid Gantt Sheet|**Faster agreement about project timelines.** This is a Google Sheets template for program/project managers to show their teams their timelines across projects without needing subscription apps. Built with [Google Sheets](https://sheets.google.com/).
+|TBC|Rapid Gantt Sheet|**Faster agreement about project timelines.** This is a Google Sheets template for program/project managers to show teams their timelines across projects without needing subscription apps. Built with [Google Sheets](https://sheets.google.com/).
  | TBC|Bester|**For fun.** A web app for Logan and me to list and rank our favourite things, with a simple drag-and-drop tier list within organised collections. Built with [Alpine.js](https://alpinejs.dev/) and [beer.css](https://www.beercss.com/).|
 |TBC|What Colour Year Is It?| **Better organisation.** A web page for me to see what colour year it is. Useful for tagging physical objects to later deduce what year they were purchased or last used. Built with [Semantic UI](https://semantic-ui.com/) and [Agility.js](https://github.com/arturadib/agility).
 |TBC|Simple Wedding DJ|**Make it easy to play your wedding playlists.** This web app to control the playback of one or many playlists on a second display monitor. Useful for running the playlists at a wedding. Built with [beer.css](https://www.beercss.com/).|
