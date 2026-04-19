@@ -1,6 +1,6 @@
 Link | Name | Description | Audience
 -|-|-|-
- | TBC|Bester|**Clearer favourites.** A web app for Logan and me to list and rank our favourite things, with a simple drag-and-drop tier list within organised collections. Built with [Alpine.js](https://alpinejs.dev/) and [beer.css](https://www.beercss.com/).|Universal
+ | TBC|Bester|**Clearer favourites.** A web app to list and rank your favourite things, with a simple drag-and-drop tier list within organised collections. Built with [Alpine.js](https://alpinejs.dev/) and [beer.css](https://www.beercss.com/).|Universal
  |TBC|Simple DJ|**Easier event music.** This is a web app for event planners to control the playback of one or many playlists on a second display monitor at their events. Useful for running the playlists at a conference or wedding. Built with [beer.css](https://www.beercss.com/).|Universal
  |TBC|Strategy Making Template|**Deeper quality strategies.** This is a slide template for CEOs and Chiefs of Staff to give structure to their annual strategic planning. Built with Google Slides.|Role-Based
  |TBC|Rapid Gantt Sheet|**Faster agreement about project timelines.** This is a Google Sheets template for program/project managers to show teams their timelines across projects without anyone needing a subscription app. Built with [Google Sheets](https://sheets.google.com/).|Role-Based
