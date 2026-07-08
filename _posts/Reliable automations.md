@@ -8,4 +8,4 @@ This workflow has an Error Workflow selected in its settings so that unexpected 
 This workflow uses customised, meaningful names for every node. Always starting with a verb and an object noun (e.g., `Fetch_Employee_Record` instead of `HTTP Request`) so it is more easily managed without specialist knowledge.
 
 ## 🔴 Tier C
-This workflow has not been properly assessed and should not be trusted as reliable.
+Tier C workflows have not been properly assessed and should not be trusted as reliable.
