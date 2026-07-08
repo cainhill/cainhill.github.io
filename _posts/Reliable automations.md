@@ -1,4 +1,5 @@
 ## 🟠 Tier B
+Tier B automations have achieved some basic standards. You can get to Tier B quickly with small changes to your automations.
 
 **Error Management**
 This workflow has an Error Workflow selected in its settings so that unexpected runtime failure automatically trigger immediate team notifications and telemetry.
